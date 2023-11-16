@@ -14,7 +14,7 @@ import os, sys
 input_filename = os.path.abspath(sys.argv[1])
 
 # U enables "universal newlines", handy for odd-formated files
-with open(input_filename, 'rU') as f:
+with open(input_filename, 'r') as f:
 	lines = f.readlines()
 
 i = 0
@@ -30,4 +30,4 @@ while i < len(lines):
 	i += 1
 
 text = ''.join(lines)
-print text
+print(text)
