@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel2.jpg)
+
+<div style="page-break-after: always"></div>
 
 # De fuik van filantropie: Over de ontwrichtende posities van Ammodo, Droom en Daad en Hartwig Art Foundation
 

@@ -517,7 +517,9 @@ getouwtrek. Naar een politiek van mecenaat.
     <https://www.platformbk.nl/de-grote-verdwijntruc/>.
 
 
+![](imgs/paneel1.jpg)
 
+<div style="page-break-after: always"></div>
 
 # De waarde(n) van geld
 
@@ -852,6 +854,9 @@ januari 2017.*
 
 
 
+![](imgs/paneel2.jpg)
+
+<div style="page-break-after: always"></div>
 
 # De fuik van filantropie: Over de ontwrichtende posities van Ammodo, Droom en Daad en Hartwig Art Foundation
 
@@ -1650,6 +1655,9 @@ onderaan deze pagina.*
     <https://www.boekman.nl/wp-content/uploads/2019/08/BmXtra_17.pdf>.
 
 
+![](imgs/paneel3.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Waar blijft die culture of giving? Over de spagaat van mecenaat, tien jaar na Zijlstra
 
@@ -1895,6 +1903,9 @@ pp. 28-31.*
 [^05_21]: Velthuis, 'Geven om geld', 82.
 
 
+![](imgs/paneel4.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Voor wat hoort wat, maar wat dan precies?
 
@@ -2321,6 +2332,9 @@ nieuwbouw storten\',* Metropolis M *(2020) 1, pp. 32-34.*
     1950.
 
 
+![](imgs/paneel5.jpg)
+
+<div style="page-break-after: always"></div>
 
 # De staat van het mecenaat: Waarom private giften voor kunst geen politiek instrument moeten zijn
 
@@ -2956,6 +2970,9 @@ op 28 maart 2022.*
     https://www.rijksoverheid.nl/documenten/kamerstukken/2021/12/13/aanbiedingsbrief-bij-onderzoeksrapport-geven-en-werven-in-de-culturele-sector-in-nederland-2011-2020.
 
 
+![](imgs/paneel6.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Willen we een staat van mecenaat?
 
@@ -3146,6 +3163,9 @@ Een gezond ecosysteem is *en...en...en...,* met checks en balances.
 Kunst op 8 juli 2022.*
 
 
+![](imgs/paneel7.jpg)
+
+<div style="page-break-after: always"></div>
 
 # De grote verdwijntruc: Verwarring en rekenschap in de publiek-private knoop
 
@@ -3572,6 +3592,9 @@ Kunst op 1 juli 2022.*
     [<https://parsejournal.com/article/incomplete-decommodification/>.]{.underline}
 
 
+![](imgs/paneel8.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Het aantal particuliere musea groeit wereldwijd, maar dat maakt kunst ook kwetsbaar
 
@@ -3783,6 +3806,9 @@ april 2023.*[^10_5]
 
 
 
+![](imgs/paneel9.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Ik een ANBI, jij een ANBI, zij een ANBI 
 

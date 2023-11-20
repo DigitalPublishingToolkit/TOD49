@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel3.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Waar blijft die culture of giving? Over de spagaat van mecenaat, tien jaar na Zijlstra
 

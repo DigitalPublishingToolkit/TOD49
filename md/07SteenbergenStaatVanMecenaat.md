@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel5.jpg)
+
+<div style="page-break-after: always"></div>
 
 # De staat van het mecenaat: Waarom private giften voor kunst geen politiek instrument moeten zijn
 

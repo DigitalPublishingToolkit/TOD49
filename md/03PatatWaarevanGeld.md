@@ -16,7 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel1.jpg)
 
+<div style="page-break-after: always"></div>
 
 # De waarde(n) van geld
 

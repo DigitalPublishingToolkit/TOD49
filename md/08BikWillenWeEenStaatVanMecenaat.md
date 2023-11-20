@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel6.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Willen we een staat van mecenaat?
 

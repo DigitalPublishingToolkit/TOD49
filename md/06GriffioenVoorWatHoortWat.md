@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel4.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Voor wat hoort wat, maar wat dan precies?
 

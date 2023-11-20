@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel9.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Ik een ANBI, jij een ANBI, zij een ANBI 
 

@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel7.jpg)
+
+<div style="page-break-after: always"></div>
 
 # De grote verdwijntruc: Verwarring en rekenschap in de publiek-private knoop
 

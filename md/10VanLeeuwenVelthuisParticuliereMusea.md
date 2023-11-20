@@ -16,6 +16,9 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+![](imgs/paneel8.jpg)
+
+<div style="page-break-after: always"></div>
 
 # Het aantal particuliere musea groeit wereldwijd, maar dat maakt kunst ook kwetsbaar
 
