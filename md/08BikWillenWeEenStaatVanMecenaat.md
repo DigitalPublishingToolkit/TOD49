@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # Willen we een staat van mecenaat?
 
-Liesbeth Bik
+### Liesbeth Bik
 
 Mecenaat: zelf als kunstenaar hebben we er misschien niet direct mee te
 maken maar we observeren wel, van dichtbij, een aantal ontwikkelingen.

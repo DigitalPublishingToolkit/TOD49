@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # Conclusie: Een politiek van mecenaat in zes stellingen
 
-Sepp Eckenhaussen
+### Sepp Eckenhaussen
 
 In scherpte en expertise doen de acht teksten in deze bundel niet voor
 elkaar onder; samen schetsen ze een mooi beeld van het Nederlandse

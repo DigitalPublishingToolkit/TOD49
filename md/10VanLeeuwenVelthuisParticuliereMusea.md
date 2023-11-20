@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # Het aantal particuliere musea groeit wereldwijd, maar dat maakt kunst ook kwetsbaar
 
-Anna van Leeuwen in gesprek met Olav Velthuis
+### Anna van Leeuwen in gesprek met Olav Velthuis
 
 Voorlinden in Wassenaar, Museum More in Gorssel, Beelden aan Zee in
 Scheveningen: Nederland telt acht particuliere kunstmusea. Het zijn

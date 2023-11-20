@@ -16,6 +16,11 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
+# De bevrijding van het mecenaat
+
+<div style="page-break-after: always"></div>
+
+
 
 # Colofon
 
@@ -33,7 +38,7 @@ Steenbergen, Olav Velthuis
 
 **Omslag:** Katja van Stiphout
 
-**Ontwerp en productie**: Klara Debeljak
+**Ontwerp en productie**: Erica Gargaglione
 
 Deze publicatie is het resultaat van twee jaar onderzoek van Platform
 BK, dat werd mogelijk gemaakt door de leden van Platform BK en een
@@ -63,3 +68,10 @@ kostprijs via: www.networkcultures.org/publications
 
 Licentie: Creative Commons Attribution NonCommercial ShareAlike 4.0
 Unported (CC BY-NC-SA 4.0)
+
+
+
+<img src="imgs/INC-logoCMYK.png" alt="drawing" style="width:300px;"/>
+
+
+

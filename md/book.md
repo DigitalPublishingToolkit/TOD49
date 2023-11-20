@@ -1,4 +1,9 @@
 
+# De bevrijding van het mecenaat
+
+<div style="page-break-after: always"></div>
+
+
 
 # Colofon
 
@@ -16,7 +21,7 @@ Steenbergen, Olav Velthuis
 
 **Omslag:** Katja van Stiphout
 
-**Ontwerp en productie**: Klara Debeljak
+**Ontwerp en productie**: Erica Gargaglione
 
 Deze publicatie is het resultaat van twee jaar onderzoek van Platform
 BK, dat werd mogelijk gemaakt door de leden van Platform BK en een
@@ -49,41 +54,48 @@ Unported (CC BY-NC-SA 4.0)
 
 
 
+<img src="imgs/INC-logoCMYK.png" alt="drawing" style="width:300px;"/>
+
+
+
+
+
+
 # Inhoud
 
 
-<a href=”ch002.xhtml”> Sepp Eckenhaussen, *Inleiding*</a>
+<a href='ch004.xhtml'> Sepp Eckenhaussen, *Inleiding*</a>
 
-<a href=”ch003.xhtml”>Sofia Patat, *De waarde(n) van geld*</a>
+<a href='ch005.xhtml'>Sofia Patat, *De waarde(n) van geld*</a>
 
-<a href=”ch004.xhtml”>Timo Demollin, *De fuik van filantropie: Over de ontwrichtende posities van Ammodo, Droom en Daad en Hartwig Art Foundation*</a>
+<a href='ch006.xhtml'>Timo Demollin, *De fuik van filantropie: Over de ontwrichtende posities van Ammodo, Droom en Daad en Hartwig Art Foundation*</a>
 
-<a href=”ch005.xhtml”>Helleke van den Braber, *Waar blijft die culture of giving? Over de spagaat van mecenaat, 10 jaar na Zijlstra*</a>
+<a href='ch007.xhtml'>Helleke van den Braber, *Waar blijft die culture of giving? Over de spagaat van mecenaat, 10 jaar na Zijlstra*</a>
 
-<a href=”ch006.xhtml”>Roel Griffioen, *Voor wat hoort wat, maar wat dan precies?*</a>
+<a href='ch008.xhtml'>Roel Griffioen, *Voor wat hoort wat, maar wat dan precies?*</a>
 
-<a href=”ch007.xhtml”>Renée Steenbergen, *De staat van het mecenaat: Waarom private giften voor kunst geen politiek instrument moeten zijn*</a>
+<a href='ch009.xhtml'>Renée Steenbergen, *De staat van het mecenaat: Waarom private giften voor kunst geen politiek instrument moeten zijn*</a>
 
-<a href=”ch008.xhtml”>Liesbeth Bik, *Willen we een staat van mecenaat?*</a>
+<a href='ch010.xhtml'>Liesbeth Bik, *Willen we een staat van mecenaat?*</a>
 
-<a href=”ch009.xhtml”>Jack Segbars, *De grote verdwijntruc: Verwarring en rekenschap in de publiek-private knoop*</a>
+<a href='ch011.xhtml'>Jack Segbars, *De grote verdwijntruc: Verwarring en rekenschap in de publiek-private knoop*</a>
 
-<a href=”ch010.xhtml”>Anna van Leeuwen in gesprek met Olav Velthuis, *Het aantal particuliere musea groeit wereldwijd, maar dat maakt kunst ook kwetsbaar*</a>
+<a href='ch012.xhtml'>Anna van Leeuwen in gesprek met Olav Velthuis, *Het aantal particuliere musea groeit wereldwijd, maar dat maakt kunst ook kwetsbaar*</a>
 
-<a href=”ch011.xhtml”>Nous Faes, *Ik een ANBI, jij een ANBI, zij een ANBI*</a>
+<a href='ch013.xhtml'>Nous Faes, *Ik een ANBI, jij een ANBI, zij een ANBI*</a>
 
-<a href=”ch012.xhtml”>Sepp Eckenhaussen, *Conclusie: Een politiek van mecenaat in zes stellingen*</a>
+<a href='ch014.xhtml'>Sepp Eckenhaussen, *Conclusie: Een politiek van mecenaat in zes stellingen*</a>
 
-<a href=”ch013.xhtml”>Bibliografie</a>
+<a href='ch015.xhtml'>Bibliografie</a>
 
-<a href=”ch014.xhtml”>Over de auteurs</a>
+<a href='ch016.xhtml'>Over de auteurs</a>
 
 
 
 
 # Inleiding
 
-Sepp Eckenhaussen
+### Sepp Eckenhaussen
 
 ## Een 'volstrekt irrelevante' opsomming
 
@@ -506,9 +518,10 @@ getouwtrek. Naar een politiek van mecenaat.
 
 
 
+
 # De waarde(n) van geld
 
-Sofia Patat
+### Sofia Patat
 
 > 'Money and language have something in common: they are nothing and
 > they move everything. They are nothing but symbols, conventions,
@@ -837,9 +850,12 @@ januari 2017.*
 
 
 
+
+
+
 # De fuik van filantropie: Over de ontwrichtende posities van Ammodo, Droom en Daad en Hartwig Art Foundation
 
-Timo Demollin
+### Timo Demollin
 
 Kunstmusea, presentatie-instellingen en postacademische instellingen
 worden steeds vaker gesteund door particuliere fondsen. Dat klinkt
@@ -1637,7 +1653,7 @@ onderaan deze pagina.*
 
 # Waar blijft die culture of giving? Over de spagaat van mecenaat, tien jaar na Zijlstra
 
-Helleke van den Braber
+### Helleke van den Braber
 
 Heeft u de kunsten met een donatie de coronacrisis doorgeholpen? Die
 vraag\
@@ -1778,13 +1794,6 @@ dat ongericht en ad hoc vragen om geld aan 'de' Nederlander, zoals uit
 de enquête van het Prins Bernhard Cultuurfonds bleek, niet de beste
 aanpak is.
 
-Top of Form
-
-Bottom of Form
-
-Top of Form
-
-Bottom of Form
 
 ## Geen redder in nood, wel hoeder van groei
 
@@ -1889,7 +1898,7 @@ pp. 28-31.*
 
 # Voor wat hoort wat, maar wat dan precies?
 
-Roel Griffioen
+### Roel Griffioen
 
 De grenzen tussen publiek en privaat in de kunstwereld worden hertekend.
 Steeds meer verzamelaars en filantropen investeren in stenen, bouwen
@@ -2315,7 +2324,7 @@ nieuwbouw storten\',* Metropolis M *(2020) 1, pp. 32-34.*
 
 # De staat van het mecenaat: Waarom private giften voor kunst geen politiek instrument moeten zijn
 
-Renée Steenbergen
+### Renée Steenbergen
 
 Een paar maanden voordat de bankencrisis in het najaar van 2008
 uitmondde in een recessie, publiceerde ik mijn onderzoek naar de opkomst
@@ -2950,7 +2959,7 @@ op 28 maart 2022.*
 
 # Willen we een staat van mecenaat?
 
-Liesbeth Bik
+### Liesbeth Bik
 
 Mecenaat: zelf als kunstenaar hebben we er misschien niet direct mee te
 maken maar we observeren wel, van dichtbij, een aantal ontwikkelingen.
@@ -3140,7 +3149,7 @@ Kunst op 8 juli 2022.*
 
 # De grote verdwijntruc: Verwarring en rekenschap in de publiek-private knoop
 
-Jack Segbars
+### Jack Segbars
 
 Er heerst een groot, aanhoudend misverstand omtrent de positie van
 beeldende kunst in de maatschappij en de belangen, het eigenaarschap, en
@@ -3566,7 +3575,7 @@ Kunst op 1 juli 2022.*
 
 # Het aantal particuliere musea groeit wereldwijd, maar dat maakt kunst ook kwetsbaar
 
-Anna van Leeuwen in gesprek met Olav Velthuis
+### Anna van Leeuwen in gesprek met Olav Velthuis
 
 Voorlinden in Wassenaar, Museum More in Gorssel, Beelden aan Zee in
 Scheveningen: Nederland telt acht particuliere kunstmusea. Het zijn
@@ -3777,7 +3786,7 @@ april 2023.*[^10_5]
 
 # Ik een ANBI, jij een ANBI, zij een ANBI 
 
-Nous Faes
+### Nous Faes
 
 In Nederland bleek een belastingwetgevingswijziging die was bedoeld om
 ontwijking en misbruik tegen te gaan averechts uit te pakken.[^11_1] Het
@@ -3966,7 +3975,7 @@ in handen van een select gezelschap eenlingen.
 
 # Conclusie: Een politiek van mecenaat in zes stellingen
 
-Sepp Eckenhaussen
+### Sepp Eckenhaussen
 
 In scherpte en expertise doen de acht teksten in deze bundel niet voor
 elkaar onder; samen schetsen ze een mooi beeld van het Nederlandse

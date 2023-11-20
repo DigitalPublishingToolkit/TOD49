@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # De fuik van filantropie: Over de ontwrichtende posities van Ammodo, Droom en Daad en Hartwig Art Foundation
 
-Timo Demollin
+### Timo Demollin
 
 Kunstmusea, presentatie-instellingen en postacademische instellingen
 worden steeds vaker gesteund door particuliere fondsen. Dat klinkt

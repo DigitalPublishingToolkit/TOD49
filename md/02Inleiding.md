@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # Inleiding
 
-Sepp Eckenhaussen
+### Sepp Eckenhaussen
 
 ## Een 'volstrekt irrelevante' opsomming
 

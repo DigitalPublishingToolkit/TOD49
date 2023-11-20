@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # De grote verdwijntruc: Verwarring en rekenschap in de publiek-private knoop
 
-Jack Segbars
+### Jack Segbars
 
 Er heerst een groot, aanhoudend misverstand omtrent de positie van
 beeldende kunst in de maatschappij en de belangen, het eigenaarschap, en

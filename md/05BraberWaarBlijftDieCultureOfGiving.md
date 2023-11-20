@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # Waar blijft die culture of giving? Over de spagaat van mecenaat, tien jaar na Zijlstra
 
-Helleke van den Braber
+### Helleke van den Braber
 
 Heeft u de kunsten met een donatie de coronacrisis doorgeholpen? Die
 vraag\
@@ -160,13 +160,6 @@ dat ongericht en ad hoc vragen om geld aan 'de' Nederlander, zoals uit
 de enquête van het Prins Bernhard Cultuurfonds bleek, niet de beste
 aanpak is.
 
-Top of Form
-
-Bottom of Form
-
-Top of Form
-
-Bottom of Form
 
 ## Geen redder in nood, wel hoeder van groei
 

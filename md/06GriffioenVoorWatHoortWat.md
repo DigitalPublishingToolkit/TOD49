@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # Voor wat hoort wat, maar wat dan precies?
 
-Roel Griffioen
+### Roel Griffioen
 
 De grenzen tussen publiek en privaat in de kunstwereld worden hertekend.
 Steeds meer verzamelaars en filantropen investeren in stenen, bouwen

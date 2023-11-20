@@ -17,9 +17,10 @@ Rights: CC BY-NC 4.0
 ...
 
 
+
 # De waarde(n) van geld
 
-Sofia Patat
+### Sofia Patat
 
 > 'Money and language have something in common: they are nothing and
 > they move everything. They are nothing but symbols, conventions,
@@ -345,3 +346,6 @@ januari 2017.*
     Kunstenaar* (Den Bosch: AKV/St.Joost: 2012).
 
 [^03_11]: Boltansky en Thévenot, *De la justification.*
+
+
+

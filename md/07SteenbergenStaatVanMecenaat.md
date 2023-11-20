@@ -19,7 +19,7 @@ Rights: CC BY-NC 4.0
 
 # De staat van het mecenaat: Waarom private giften voor kunst geen politiek instrument moeten zijn
 
-Renée Steenbergen
+### Renée Steenbergen
 
 Een paar maanden voordat de bankencrisis in het najaar van 2008
 uitmondde in een recessie, publiceerde ik mijn onderzoek naar de opkomst
