@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Link" Name="Link">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Paragraph" Name="Blockquote &gt; Paragraph" LeftIndent="10">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" LeftIndent="0" PointSize="24">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#conclusie-een-politiek-van-mecenaat-in-zes-stellingen" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Conclusie: Een politiek van mecenaat in zes stellingen</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#sepp-eckenhaussen" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Sepp Eckenhaussen</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In scherpte en expertise doen de acht teksten in deze bundel niet voor elkaar onder; samen schetsen ze een mooi beeld van het Nederlandse mecenaatsdebat. Toch is deze bundel eerder het resultaat is van onvrede dan van trots. Deze onvrede laaide in de zomer en het najaar van 2023 op door een frappante opeenvolging van gebeurtenissen. Miljardair Martijn van der Vorm zette via Stichting Droom en Daad een het beeld </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Moments Contained’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> neer voor Station Rotterdam Centraal, met geld dat verdiend was door belastingontduiking.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	De presentative van </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Moments Contained’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> van Thomas J. Price, Van der Vorms belastingontduiking, de faciliterende rol van de Gemeente Rotterdam en Aboutalebs afwijzende reactie op kritische vragen werden besproken in de inleiding van deze bundel.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> De opzet van dit sterke staaltje </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>art washing</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> slaagde volledig: het beeld én haar gever werden overspoeld door lofbetuigingen.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Zo’n lofbetuiging kwam bijvoorbeeld van kunstenaar Simone Zeefuik tijdens het openingsprogramma van Buro Stedelijk, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Manifestations #1: Listening Sessions,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 15 april 2023. Zij toonde </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Moments Contained’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> op groot scherm als voorbeeld van het soort kunstproductie dat maatschappelijk urgent is.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Desgevraagd weigerde burgemeester Aboutaleb de politieke implicaties en de rol van zijn eigen stadsbestuur in deze dubieuze praktijken te erkennen. En ondertussen zette Wim Pijbes, directeur van Droom en Daad, een antidemocratisch charmeoffensief in ten faveure van de mecenas. Zo hekelde hij in een opiniestuk de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘regeldruk bij musea’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> en betoogde hij als spreker bij De Balie dat privaat geld vooroploopt in de ontwikkelingen van kunst en cultuur – kijk maar naar </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘dat prachtige standbeeld van een zwart meisje’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Wim Pijbes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Vernieuwing bij musea is gebaat bij ruimte, niet bij regels’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>NRC,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 22 juni 2023. Pijbes’ uitspraak over </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Moments Contained’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> vond plaats tijdens het jaarlijkse Prinsjesdagontbijt en werd opgetekend door Timo Demollin, die als adviseur voor de Amsterdamse Kunstraad aanwezig was.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Moments Contained’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> is niet alleen een ode aan de gewone Rotterdammer, maar ook een in brons gegoten middelvinger naar democratische besluitvorming.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mijn frustratie komt deels door de arrogante machtsgreep van Van der Vorm, het slechte bestuur van Aboutaleb en het autocratisch geneuzel van Pijbes. Maar nog erger vind ik hoe moeilijk men in de cultuursector doet over het hebben van een kritisch gesprek, hoe persoonlijk dingen gemaakt worden, hoe vast we zitten in de zelfcensuur van een dankbaarheidscultus.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Voor de organisatie van het symposium </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De staat van mecenaat</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> zijn in eerste instantie gesprekken gevoerd met twee kleine, zichzelf als geëngageerd beschouwende kunstinstellingen die filantropisch geld ontvangen. Beide instellingen durfden het uiteindelijk niet aan om het symposium te </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>hosten,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> in een geval omdat men bang was voor </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘mecenas </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>bashen</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Ook het Mondriaan Fonds, dat meermaals was uitgenodigd om mee te doen aan de discussie, hield de boot af en was zeer ontstemd over het symposium. Uiteindelijk vonden we in Framer Framed een gastinstelling die volledig achter de organisatie stond.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Het moet bij deze overduidelijke misstanden toch mogelijk zijn om een systeemkritisch gesprek te voeren, met belanghebbenden van verschillende kanten aan tafel? Vandaar dat ik in de inleiding van deze bundel schreef: </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Het was enigszins frustrerend dat een intensieve zoektocht naar de rol van mecenaat vooral rolverwarring blootlegde. Toch werd zo, positief bezien, wel duidelijk welke stappen er nog te zetten zijn in het publieke en politieke debat.’</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In deze conclusie leg ik deze opgave van vervolgstappen als gedachtenexperiment aan mezelf op. Ik heb me afgevraagd: als ik opnieuw een debat over mecenaat in Nederland programmeren, welke stellingen zou ik dan poneren om de discussie zo scherp, kritisch en concreet mogelijk te maken?</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mijn uitgangspunt voor het beantwoorden van deze vraag is een onderscheid tussen drie lijnen van actie: ethiek, politiek en tactiek. Deze lijnen lopen parallel en moeten afzonderlijk worden doorontwikkeld voordat ze uiteindelijk kunnen samenkomen tot een integrale visie die mecenaat bevrijdt uit de neoliberale grip. In de volgende zes stellingen doe ik een poging om zowel het onderscheid als de raakvlakken tussen tactiek, ethiek en politiek scherp te stellen.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#stelling-1-we-hebben-een-politieke-discussie-over-mecenaat-nodig-die-moralisme-overstijgt" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Stelling 1: We hebben een politieke discussie over mecenaat nodig die moralisme overstijgt</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Vaak verzandt de discussie over mecenaat in moreel getouwtrek tussen critici en pragmatici. De critici hekelen dat rijke gevers of bedrijven hun smaak opdringen aan het publiek, vooral als het geschonken geld verdiend is met dubieuze praktijken zoals wapenhandel, plantagelandbouw, de fossiele industrie, de gokindustrie of flitskapitaal. Maar erg effectief in het overtuigen van voorstanders van mecenaat blijkt dit appel niet. Voorstanders brengen in antwoord een heel arsenaal pragmatische argumenten in stelling. Mecenaat is volgens hen nu eenmaal nodig om als culturele organisatie of maker te overleven.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Het is opvallend dat pleidooien voor een grote rol van mecenaat vaak samenvallen met overheidsbezuinigingen (2004, 2012) of andersoortige budgettaire crises voor cultuur (coronacrisis 2020-2022). In 2004 stelde Staatssecretaris van Cultuur Medy van der Laan tijdens een symposium in de Amsterdamse Stadsschouwburg: 'Het kabinet heeft minder geld te verdelen en daarom moeten wij keuzes maken. Maar ook als wij niet zouden hoeven korten, zou ik mij sterk maken voor het mecenaat. Het is altijd beter voor de kunsten als meer groepen in de samenleving zich daarbij betrokken voelen.' In 2012 trekt Staatssecretaris Halbe Zijlstra wel een direct verband: de terugtrekkende overheid maakt zijns inziens ruimte voor mecenaat. Rob Gollin en Joost Ramaer, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Weldoenders gezocht’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Volkskrant,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 9 september 2004, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Het is hypocriet om de mecenas te betichten van machtsuitoefening, terwijl ook overheden strenge kaders scheppen voor kunstproductie (kop van jut zijn vaak diversiteit, inclusie en regionale spreiding – met de hoge regeldruk van dien). En zolang er niets illegaals gebeurt, moet men in de cultuursector ophouden elkaar de maat te nemen.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Dit argument tegen regeldruk wordt vaak gebracht als oproep tot hernieuwd vertrouwen. Zo riep Martijn van der Steen, bijzonder hoogleraar Bestuurskunde aan de Erasmus Universiteit, tijdens het door Kunsten </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘92 georganiseerde Paradisodebat 2023 op tot minder bureaucratie en een meer horizontale organisatie van het veld. Het blijft echter onduidelijk hoe verlaging van de regeldruk zonder herverdeling van macht en middelen zou leiden tot een meer horizontale organisatie in plaats van bestendiging van de heersende orde. ’Paradisodebat 2023’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Platform BK,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 4 september 2023, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.platformbk.nl/paradiso-debat-2023-2/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Laten we de boel liever positief bekijken, aldus de voorstanders: private giften zijn het ultieme teken van betrokkenheid in een tijd dat het draagvlak voor cultuur afkalft.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Deze geraffineerde pragmatische argumenten maken het mogelijk dat ook een schijnbaar simpele ethische kwestie op de spits kan worden gedreven. Een goed voorbeeld is fossiele sponsoring van kunst en cultuur. Na jarenlange acties door Fossil Free Culture hebben de meeste kunstorganisaties fossiele sponsoren in de ban gedaan en lijkt er een consensus te zijn gevormd in </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘de sector’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Zoë Dankert maakte in 2020 een rondgang langs de Nederlandse musea. Ze vond dat er op dat moment nog maar vier musea in Nederland waren met fossiele sponsoring: het Drents Museum (NAM), Groninger Museum (Gasunie en GasTerra), NEMO (Shell) en Rijksmuseum Boerhaave (Shell). Na de publicatie van het artikel heeft NEMO de banden met de fossiele industrie verbroken (het is niet aannemelijk dat het artikel hiervoor de doorslag gaf). Zoë Dankert, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Kunst &amp; klimaat: De lange arm – wat zoekt de fossiele industrie in de kunst?’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Metropolis M,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 16 september 2020, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-3" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Toch laat het Groninger Museum zich nog steeds structureel sponsoren door Gasunie en GasTerra. Terwijl de aarde onder de Groningers kapot wordt geboord, verdedigt museumdirecteur Andreas Blühm de nationale gasmagnaat als voortrekker in de energietransitie.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Gas en het Groninger Museum’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De linkse mannen lossen het op</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, oktober 2022, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-4" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://open.spotify.com/episode/5m0Y9K4Kd66s6Z1iDEvNb5?si=uj3ezqb0SmqOtqXyFrWB8A</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Het museum mag wat hem betreft trots zijn op dit partnerschap. Blühm is niet ontvankelijk voor moreel appel uit het veld, hoe vaak en hard dat ook herhaald wordt.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Fossil Free Culture Groningen voert al jaren actie tegen de sponsordeal. Ook kunstenaar Marit Westerhuis bekritiseerde het Groninger Museum tijdens de opening van haar eigen tentoonstelling aldaar. Ik schreef over deze casus voor Het Resort en het </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Dagblad van het Noorden.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Sepp Eckenhaussen, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘De slag om het museum: Een ode aan klimaatactivisten in de kunst’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Dagblad van het Noorden,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 2 januari 2023, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Om aan deze situatie te ontkomen, formuleerde Roel Griffioen een originele aanzet voor een ethiek van mecenaat. In plaats van willekeurige een </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>case-to-case</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> benadering, biedt zo’n ethiek kaders om mecenaat te toetsen aan normen van publieke verantwoording. Het is makkelijk zulke normen voor te stellen: </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Weer geld uit de wapenindustrie,’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> of </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Werk alleen met vastgoedontwikkeling als een duurzame plek voor kunst gegarandeerd is’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	De wapenindustrie lijkt misschien ver af te staan van de kunstwereld, maar dat is niet altijd het geval. Museum Moore in Ruurlo toont een collectie realistische kunst. Het museum en de collectie (grotendeels opgebouwd vanaf de integraal overgenomen Dirk Scheringa-collectie) zijn eigendom van chemiemagnaat Hans Melchers. Melchers werd in 1986 veroordeeld voor het leveren van chemicaliën aan Irak waarmee chemische wapens gemaakt kunnen worden. Op dit moment loopt er weer een rechtszaak tegen hem wegens levering van bestanddelen van chemische wapens in Irak. Erik van Dam, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Vordense miljardair (85) voor de rechter om Iraaks gifgas’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Omroep Gelderland,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 16 juni 2023, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-6" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Ook historisch zijn prominente verbanden tussen mecenaat en wapenindustrie. Het Prins Bernhard Cultuurfonds werd in augustus 1940 opgericht in Londen onder de naam Spitfire Fund met het doel geld in te zamelen voor oorlogsmaterieel. Zie: </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-7" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.oorlogsbronnen.nl/thema/Spitfire%20Fund</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Voor deze normen kan de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘ethische mecenas’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> vervolgens medeverantwoordelijkheid nemen.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Het begrip </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘ethisch mecenaat’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> komt uit Àngels Miralda Tena, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Privatizing the Institution’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Collecteurs,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> januari 2019, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-8" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.collecteurs.com/article/privatizing-the-institution</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Miralda Tena beschrijft de verantwoordelijkheid die de ethische mecenas dient te dragen: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘With a disappearing boundary between the private and public we all need to confront the question of how to promote social values in a world in which they are on the point of extinction. The role of the patron should not encourage this situation, but fight together with cultural actors against the elimination of public institutions.’</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Naast deze inhoudelijke normen staat het democratische principe dat macht over een publiek gefinancierde instelling niet te koop is. Een mecenas hoort dus niet thuis in een raad van toezicht.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Carolina Lapidaire, verantwoordelijk voor bedrijfssponsoring bij De Balie, schreef in een opiniestuk in NRC: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Een dubbelrol als begunstiger én bestuurder is niet kies, en dit systeem houdt de macht van de rijken in stand. […] Laten we afspreken dat de grens ligt bij de drempel van de bestuurskamer. Dat we de scheiding tussen geldschieters en bestuursleden zuiver houden.’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Caroline Lapidaire, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Stop de veramerikanisering van de cultuursector’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>NRC,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 8 september 2023, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-9" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Bruikleengevers behoren zich op geen enkele manier met tentoonstellingsbeleid te bemoeien. En een speciale gemeentelijke stuurgroep voor een filantropische stichting is al helemaal uit den boze. Vanuit de verschillende teksten in deze bundel doemen de contouren op van een mecenaatscode, al dan niet als aanvulling of verdieping van de bestaande Good Governance Code, die Jack Segbars voorstelde.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Maatschappelijke dialoog’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> kan de basis zijn voor wet- en regelgeving die de politieke verhoudingen hervormt. Goede voorbeelden zijn de Richtlijn Kunstenaarshonoraria en Fair Practice Code: beide werden ontwikkeld vanuit het veld, werden door steeds meer instellingen toegepast en werden ten slotte door de Minister van OC&amp;W geïmplementeerd als subsidievoorwaarden. De suggestie van Jack Segbars om een mecenaatscode te lanceren, zou een logische vervolgstap zijn op deze eerdere codes.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Het gemor over regeldruk dat ongetwijfeld op zo’n code zal volgen, lijkt me daarbij geen belemmering: deze toont enkel aan dat een verschuiving in machtsverhoudingen plaatsvindt.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	In de bijdrage van Steenbergen aan deze bundel werd al vastgesteld: mecenaat als gevolg van belastingvoordeel is een herverdeling van collectieve middelen is; een sigaar uit eigen doos. Dat met collectieve middelen moet zorgvuldig omgegaan worden, blijkt uit de zeer complexe procedures die kunstenaars moeten doorlopen om kleine bedragjes toegekend te krijgen. Als organisaties en private partijen zich storen aan regeldruk die voor makers totaal genormaliseerd is, toont dat enkel hoe scheef de verhoudingen op dit moment al zijn.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Om ethisch mecenaat vervolgens in de praktijk te brengen, is transparantie noodzakelijk: alle belangen van de gever moeten kenbaar zijn. De bijdrage van Sofia Patat aan deze bundel is een concrete invulling van dit ideaal. Een goede, integere fondsenwerver heeft volgens Patat scherp in het vizier welke belangen meespelen, waardoor deze figuur de spil kan zijn tussen de waarden van een culturele instelling en de belangen van de sponsor. In het beste geval fungeert deze persoon als garantie tegen </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>art washing</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De ethische discussie </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘in het veld’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, met vertrouwen in zelfregulering, heeft echter een grote achilleshiel. Zij kan snel vervallen in </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>schijnpolitiek.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Dit probleem heeft de Nederlandse cultuursector in het verleden al vaker geplaagd. Er vindt dan een ingewikkeld proces plaats met werkgroepen, assemblees en klankbordsessies, ergens op de hei in midden-Nederland. Men zoekt en vindt consensus over wat we </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘met z’n allen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> zouden moeten vinden </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘als sector’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Maar uiteindelijk verandert er weinig in de verdeling van macht en middelen. In de praktijk wordt zo de aanname gelogenstraft die aan </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘onze’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> schijnpolitiek ten grondslag ligt: dat in men in cultuursector een scherp gevoel voor morele verhoudingen heeft, terwijl ethische dimensies in de realiteit vaak genegeerd door mensen op machtsposities.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Denk bijvoorbeeld aan de belastingontduiking van Martijn van der Vorm en de onwil van de Rotterdamse PvdA-burgemeester Ahmed Aboutaleb om de relatie tussen Van der Vorms geefpraktijk en belastingontduiking te erkennen, zoals besproken in de inleiding van deze bundel.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Het is daarom zaak dat een ethische discussie over mecenaat direct wordt vertaald naar een werkelijke politieke stellingname.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Een goed voorbeeld van zo’n stellingname werd gegeven door de Amerikaanse kunstenaar Andrea Fraser. Zij gaf in 2017 een lezing in Keulen over </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Trusteeship in the Age of Trump’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Ze bekritiseert hierin het lidmaatschap van durfinvesteerder Steven Mnuchin van de Raad van Toezicht van het Museum of Contemporary Art in Los Angeles. Niet alleen maakte Mnuchin zijn fortuin door het handelen in huisuitzettingen, maar ook nam hij in 2016 de leiding over de fondsenwerving voor de campagne van Donald Trump. Fraser achtte Mnuchins positie onhoudbaar en schreef een open brief. Ze stelt:</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Since the late 1960s, the art field has seen waves of concern over the influence of trustees and patrons on museum programs and collections. Unfortunately,</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>these concerns often ignore the broader structural conditions and consequences of the US system, which places responsibility for cultural institutions—and also many educational and social-welfare functions—with philanthropic organizations.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>These organizations are plutocratic in the most basic sense of the word: institutions that are considered public and provide basic social functions, but are governed by a minority of the wealthiest citizens according to their own interests,</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>with little or no democratic input or oversight.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Deze tekst van de lezing en de open brief, ondertekend door enkele tientallen prominenten uit de kunstwereld, werden samen gepubliceerd door </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>October Magazine.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Andrea Fraser en David Joselit, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Philantropy and Plutocracy’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>October,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> nr. 162, herfst 2017, pp. 32. De oproep had overigens effect, Mnuchin trad in december 2016 af uit de RvT van het MOCA</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Door het koppelen van de kritiek op Mnuchin en de afhankelijkheid van mecenaat aan een politieke systeemkritiek, toont Fraser dat het debat over mecenaat niet enkel gaat over het opdringen van smaak, of de vraag welk geld ethisch acceptabel is. Er is een directe, serieuze relatie tussen mecenaat en de verdeling van macht en zeggenschap. In Amerika is Frasers conclusie dat mecenaat bijdraagt aan de plutocratie. Hoe zit dat in Nederland? We zullen het hierover moeten kunnen hebben, zonder de discussie persoonlijk te maken, zonder zelfcensuur, zonder het bevragen van bedoelingen of smaak.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#stelling-2-mecenaat-na-de-welvaartsstaat-is-een-uniek-europees-fenomeen" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Stelling 2: Mecenaat na de welvaartsstaat is een uniek Europees fenomeen</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Voorstanders merken vaak verlekkerd op dat mecenaat in Amerika wél werkt, terwijl critici verzelfstandiging van musea als </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Amerikaanse toestanden’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> aanmerken.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Olav Velthuis, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Amerikaanse toestanden: De particuliere greep op het museum’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Metropolis M,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> nr. 3, 2008. Soms wordt ook een vergelijking met autocratisch bestuurde landen zoals Rusland of China gemaakt, om te betogen dat het gevaarlijk is om de borging van kunstproductie aan de overheid te laten. Zie bijvoorbeeld de tekst van Sofia Patat in deze reader.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> In september 2023 publiceerde nota bene een particuliere fondsenwerver van </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De Balie,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Caroline Lapidaire, een opiniestuk in het </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> met de titel </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Stop de veramerikanisering van de cultuursector’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Lapidaire, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Stop de veramerikanisering van de cultuursector’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Interessant is dat </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De Balie</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> twee weken later het Prinjesdagontbijt organiseerde, waar Amsterdamse cultuurbobo’s jaarlijks de gevolgen van de miljoenennota voor de cultuursector bespreken – in 2023 met Wim Pijbes als hoofdgast en spreker.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Inderdaad vertoont de verzelfstandiging van de cultuursector en de groeiende macht van schenkende bestuurders gelijkenissen met de situatie in de VS. Toch is het maar van heel beperkte waarde om het Nederlandse cultuurbestel langs de Amerikaanse meetlat te leggen.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In een tekst over de privatisering van musea en de opkomst van mecenaat, merkt curator en schrijver Àngels Miralda Tena op dat een gift in Europa iets fundamenteel anders is dan een gift in Amerika.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Miralda Tena, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Privatizing the Institution’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Vrijwel alle kunstinstellingen in Nederland zijn na 1945 opgebouwd met publiek geld of hebben enige vorm van collectivisering doorgemaakt (denk aan Museum Boijmans van Beuningen, Van Abbemuseum, Kröller Muller). Daarom zijn de verdeling van het geld en het bestuur in de kunst in principe onderhevig aan democratische, transparante en controleerbare processen.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Zelfs onder liberale politici is het belang van deze publieke controle op (verzelfstandigde) kunst- en cultuurinstellingen gemeenplaats. Chantal Zeegers, fractievoorzitter van D66 Rotterdam, zei in 2018 over de ambities van De Verre Bergen en Droom en Daad: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Een stad als Rotterdam wil vaker samenwerken met private financiers. Maar met geld komt macht, en bij een grote behoefte aan geld komt er afhankelijkheid. Als het over grote zaken gaat, is het wel de gemeenteraad die er over beslist.’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Monica Beek en Antti Liukku, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘D66-frontvrouw Changal Zeegers: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>“Betalen is ook bepalen?”</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>AD,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 22 september 2018, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-10" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Miralda Tena stelt daarom dat een geefpraktijk in Europa, ongeacht de intenties, per definitie bijdraagt aan de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘vervreemding en het elitisme’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> van privatisering van de sociaaldemocratische traditie.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘The privatization of culture in itself is the most symbolic producer of alienation and elitism within the art world. It is also a uniquely European phenomenon. […] Other geographical contexts have not had the privilege to rely on stable state structures of cultural funding for longer periods of time. Organizations in the United States rely on private donations as a norm, and organizations such as Istanbul Biennial, supported by the Koç Family, have signed long-term agreements to continue private funding commitments. In these circumstances, private patronage is not only necessary but admirable in that it notices and fills a void which is simply not provided by the state.’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Miralda Tena, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Privatising the Institution’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De opkomst van nieuwe mecenaatsvormen in de context van de (afgebrokkelde) Nederlandse welvaartsstaat is, met andere woorden, een typisch Europees fenomeen, dat een geheel eigen reeks vragen oplevert. Wie bepaalt hoe het publieke kunstaanbod en de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘collectie Nederland’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> eruitzien? In hoeverre is kunst een publieke sector die publieke steun verdient? En wat zijn de praktische consequenties van het ideaal van een </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘democratisch’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> kunstaanbod? Pas bij het stellen van deze vragen komt een lokaal-historisch verfijnde analyse van mecenaat in beeld.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Verschillende teksten in deze reader dragen aan zo’n analyse bij. Demollin stelt de macht over het publieke kunstaanbod in Nederland ter sprake; de relatie tussen mecenaat en vastgoedontwikkeling wordt door Griffioen besproken; Steenbergen gaat dieper in op de relatie tussen beleid en nieuwe geefpraktijken; en Nous Faes besprak het verband tussen structurele belastingontwijking en opkomend mecenaat.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Zie de respectievelijke artikelen van deze auteurs in deze bundel.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Kernachtig beschrijft Faes het script van </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>art washing</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> via mecenaat in Nederland: een krimpende groep met groeiend vermogen deelt in naam van charitas sigaren uit eigen doos uit aan de maatschappij. Ze parafraseert voor deze analyse het onderzoekrapport </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Licht uit, spot aan: de vermogensverdeling’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, in 2022 opgesteld in opdracht van de Minister van Financiën:</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Vermogende Nederlanders ontweken [in de afgelopen 15 jaar] massaal belasting via donaties aan door henzelf opgerichte goede doelen en er waren zelfs miljonairs die door hun giftenaftrek nul euro inkomstenbelasting betaalden. Zo bleek 66% van de miljonairs die grote periodieke (=meerjarig en juridisch vastgelegde) giften deden dit aan een door henzelf opgerichte algemeen nut beogende instelling (ANBI) te doen; van degenen met meer dan 25 miljoen vermogen deed 94% dat. Naast belastingontwijking door het overhevelen van privévermogen, zoals aandelen en schilderijen, bood een eigen goed doel ook mogelijkheid tot het declareren van hoge kosten.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Nous Faes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘De nieuwe messias’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Metropolis M,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-11" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.metropolism.com/nl/opinion/50436_de_nieuwe_messias</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Europees mecenaat wordt dus gekenmerkt door een opvallende omkering: belastingvoordelen zoals de btw-vrijstelling van ANBI’s en het lage btw-tarief voor cultuurgoederen zijn een cadeau van de maatschappij aan de filantroop.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Faes merkt op dat het lage btw-tarief op kunst door vakbonden wordt gevierd als overwinning van de makers, terwijl de baten helemaal niet bij zelfstandig werkenden terechtkomen. Het is hoog tijd dat culturele instellingen zich serieus afvragen of zij gebruik willen maken van deze door de staat gefaciliteerde manieren om collectieve verantwoordelijkheid te ontlopen. Nous Faes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Bemoeigoederen’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Metropolis M,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 30 september 2023, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-12" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Volgens Faes is het tijd om in Den Haag in te grijpen, want het </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘beleid dat vaart op houtje-touwtje-acties vanuit burgerzin en liefdadigheid om grote problemen aan te pakken’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> is door structurele belastingontduiking en groeiende vermogensongelijkheid duidelijk onhoudbaar geworden.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Faes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘De nieuwe messias’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Hoe? Giften aan een eigen stichting zouden niet moeten worden vrijgesteld van belasting – eerder het tegendeel: stel een filantroop die geld stopt in een eigen museum verplicht eenzelfde bedrag storten aan een publiek cultuurfonds.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Dit idee komt uit een ongepubliceerd opiniestuk van Timo Demollin.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Of, zo stelt Faes voor: verhoog de btw op kunst naar 21% en laat de extra 1 miljard belastinginkomsten direct ten goede komen aan makers.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Faes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Bemoeigoederen’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#stelling-3-mecenaat-wordt-politiek-in-de-verdeling-van-zekerheid-en-onzekerheid" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Stelling 3: Mecenaat wordt politiek in de verdeling van zekerheid en onzekerheid</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De politieke analyse zou tekortschieten als we accelererend mecenaat ten koste van de schatkist zouden verklaren als een bestuurlijke weeffout. Het is veel eerder een integraal onderdeel van de Europese, neoliberale post-welvaartsstaat. Om deze symbiotische relatie te analyseren, moeten we eerst nader kijken naar de manier waarop mecenaat politiek wordt.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mecenaat wordt gekenmerkt door grote mate van onzekerheid en ongrijpbaarheid, die toch een aantrekkelijke belofte van zekerheid herbergt. Voor kunstenaars en curatoren is deze dubbelheid direct voelbaar. De meeste filantropen ondersteunen enkel organisaties, waardoor de kunstenaar afhankelijk is van een onzeker </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>trickle down-</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>effect. Op een enkel groter fonds na hanteren ze willekeurige, moeilijk inzichtelijke beoordelingscriteria en een ’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>don’t call us, we’ll call you’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>-principe. Hierdoor is het vrijwel onmogelijk om als individuele kunstenaar of curator te bouwen op mecenaat. Toch is er ook altijd de belofte, of de droom, van de gift: een geslaagde crowdfundingcampagne, een mooie prijs of een fijne residentie, waarmee een paar maanden of zelfs een paar jaar bestaansonzekerheid wordt weggenomen.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Wanneer er geld bij een maker terechtkomt, levert dat vaak verwarring en ongemak op. Kunstenaar en onderzoeker Charlie Clemoes was in de periode 2022-2023 resident bij de Jan van Eyck Academie. Toen hij erachter kwam dat zijn residentie werd gefinancierd door het Prins Bernhard Cultuurfonds, heeft Clemoes zich tijdens zijn residentie toegelegd op het onderzoeken van Prins Bernhard Sr., het Cultuurfonds en zijn eigen relatie tot dit fenomeen. Tijdens de Open Studios 2023 presenteerde Clemoes zijn bevindingen in de performance-lezing </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘A serenade to Prince Bernhard’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Zie: </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-13" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.janvaneyck.nl/calendar/open-studios-2023</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ook instellingen hebben te maken met een dubbele bodem. Inkomsten uit giften maken een klein percentage uit van de totale inkomsten van publieke instellingen en volgen in grote lijnen de voorkeuren van publieke subsidienten. Anders dan bij publieke fondsen, speelt bij mecenaat vaak persoonlijke eer of gewin een grotere rol dan transparantie en </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>good governance.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Het gebrek aan transparantie over voordelen voor oprichters van private musea wordt besproken in de </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Key Findings’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> van het Private Museum Research-project: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘While we know from anecdotal evidence that opening and operating a private museum can come with substantial tax benefits for the founder as well, the generally low degree of transparency when it comes to finances and governance has impeded us to estimate the size of these financial benefits.’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Olav Velthuis e.a. </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Beyond the Global Boom: Private Art Museums in the 21st Century</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Amsterdam: Universiteit van Amsterdam, 2023).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Er zijn wel private musea die (bijna) volledig draaien op kosten van een mecenas, maar deze zijn wereldwijd gemiddeld nog geen 15 jaar oud en vaak zeer fragiel.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Velthuis e.a., </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Beyond the Global Boom.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Van een stabiele publieke functie kan bij zulke vluchtige organisaties geen sprake zijn. Toch heeft mecenaat ook voor de instellingen een magische belofte: de aankoop van een topstuk, de bouw van een nieuwe vleugel, of, steeds vaker, de redding van de ondergang.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Mecenaat helpt over het algemeen graag bij succesprojecten, zoals het aankopen van een topstuk. Demollins stuk in deze reader beschrijft hoe mecenaat ook vaker de rol van (semi)structurele financier van anderszins ten dode opgeschreven instellingen of programma’s op zich neemt. En af en toe is de mecenas ook een acute reddende engel. Zo werd het Cobra Museum in Amstelveen in september 2023 gered door een particuliere lening, nadat de Gemeente Amstelveen de subsidie voor de instelling in nood opschortte. Michiel Kruijt, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Noodlijdend Cobra Museum voorlopig van de ondergang gered door verzamelaar Marius Touwen’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De Volkskrant,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 11 september 2023, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-14" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tot slot krijgt ook de lokale, meestal stedelijke gemeenschap te maken met het onzekerheidsspel van mecenaat. Sinds de opkomst van vastgoedmecenaat speelt de mecenas een grotere rol in de verdeling van ruimte voor kunst en cultuur in de Nederlandse steden. Vaak biedt de vastgoedmecenas een niet te missen buitenkans voor een nieuwe kunstruimte. Maar tijdelijke contracten zijn de norm, waardoor de kunstorganisatie snel zijn plek verliest en geen duurzame relatie kan opbouwen met het lokale publiek. Uiteindelijk gaat de toegevoegde waarde van het opgeleukte vastgoed naar de investeerder, terwijl de kunstorganisatie en de lokale bewoner achterblijven als verliezer van de gentrificatie.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Zo blijkt dat mecenaat voor werkenden, instellingen en (stedelijke) gemeenschappen een willekeurige verdeling van zekerheden bewerkstelligt. Deze willekeur onttrekt zich grotendeels aan kritische analyse, vanwege de inherente vrijblijvendheid en norm van dankbaarheid die de gift kenmerken. Een gegeven paard… Toch is precies dit spel van verdeling van zekerheid en onzekerheid op de ruïnes van de welvaartsstaat de kern van het politiek-zijn van mecenaat.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#stelling-4-mecenaat-is-een-functie-van-neoliberaal-bestuur-en-dat-is-niets-persoonlijks" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Stelling 4: Mecenaat is een functie van neoliberaal bestuur – en dat is niets persoonlijks</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hoe verhoudt de onzekerheidspolitiek van mecenaat zich tot het openbaar bestuur van Nederland? Opmerkelijk is dat ook overheidsfinanciering voor kunst in de afgelopen dertig jaar in hoge mate onzeker is geworden. Onder het mom van professionalisering zijn sociale voorzieningen voor kunstenaars (BKR, WIK en WWIK) afgeschaft, werkbijdragen voor zelfstandig werkenden zijn structureel verlaagd en de bezuinigingen van 2012 hebben een gat geslagen in het bestel dat nog steeds niet gedicht is.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	In </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘First decisions voor de nieuwe regering’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> schrijft Koen Bartijn: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘De werkbijdragen van het Mondriaan Fonds voor beeldend kunstenaars zijn in de afgelopen jaren sterk gedaald: van 86 miljoen euro in 2001–2004 naar 35 miljoen euro in 2013–2016. In het jaarverslag van 2020 van het Mondriaan Fonds lezen we dat de totale som van werkbijdrage voor individuele kunstenaars nog maar 9,3 miljoen euro bedroeg.’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> In ditzelfde artikel wordt geanticipeerd op een budgetverhoging van 170 miljoen per jaar voor kunst en cultuur – een flink bedrag, maar nog steeds lager ligt dan de 200 miljoen per jaar bezuiniging die Halbe Zijlstra in 2012 doorvoerde. Koen Bartijn, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘First decisions voor de nieuwe regering: Een pleidooi voor vernieuwd vertrouwen in kunstenaars’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Mister Motley,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 3 januari 2022.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Hoewel overheden nog steeds de grootste financier van de beeldende kunst zijn en de grootste hoop van de meeste makers en instellingen, voelt het indienen van een subsidieaanvraag of het reageren op een </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>open call</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> van een publieke kunstinstelling vaak als het meedoen aan een loterij.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Het gebrek aan transparantie rond </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>open calls</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> werd in de zomer van 2023 aan de kaak gesteld door Platform BK in samenwerking met Stroom Den Haag. Zie: </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-15" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.platformbk.nl/a-call-to-open-calls-2/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Mecenaat heeft in deze zin geen corrigerende of tegengestelde functie ten opzichte van publieke financiering, maar een symbiotische.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Vaak wordt tegen beter weten in gesproken over de opkomst van mecenaat als </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘waterbedeffect’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> in reactie op een terugtrekkende overheid. Renée Steenbergen waarschuwde in 2008 al voor dit wensdenken. Renée Steenbergen, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De nieuwe mecenas: Cultuur en de terugkeer van het particuliere geld</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Amsterdam: Business Contact: 2008). In 2018 schreef de Wetenschappelijke Raad voor het Regeringsbeleid: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Er lijkt geen sprake van een </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>“waterbed”</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> tussen verzorgingsstaat en </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>“participatiesamenleving”</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, waarbij filantropie bezuinigingen van de overheid compenseert.’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Peter de Goede, Erik Schrijvers en Marianne de Visser (red.), </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Filantropie op de grens van overheid en markt’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Wetenschappelijke Raad voor het Regeringsbeleid</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, 2018, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-16" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.wrr.nl/publicaties/verkenningen/2018/10/31/verkenning-filantropie-op-de-grens-van-overheid-en-markt</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Overheid en mecenaat zijn de linker- en rechterhand van dezelfde reputatie-economie.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	De kunstmarkt als reputatie-economie is inzichtelijk beschreven door Mia van den Bos in een lezing over artistieke arbeid tijdens het programma </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Kunstenaars in de politiek arena’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, georganiseerd door Platform BK en Museum Arnhem. Zie: </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-17" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.platformbk.nl/de-politiek-van-de-artistieke-arbeid/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Het ultieme voorbeeld van deze symbiose is het principe van </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>matchfunding</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: een overheidsfonds steunt hierbij pas een cultureel initiatief als het zich heeft bewezen op de markt, bijvoorbeeld met een succesvolle </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>crowdfunding</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>-campagne.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Het kan natuurlijk niet de bedoeling zijn dat kunst als publiek goed afhankelijk is van private willekeur. Over de gewenste functie, invloed en omvang van mecenaat verschillen de auteurs in deze bundel van mening, maar zij zijn het erover eens dat de basisinfrastructuur van de kunst een publieke zaak is. Het zou, zoals Jack Segbars opmerkte, een zegen zijn voor de kunst als publieke fondsen afstappen van </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>matchfunding</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> als norm.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De versmeltende functie van private en publieke financiering leidt tot een steeds scherpere tegenstelling in het kunstveld: aan de ene kant degenen die in de meritocratische machinaties overeind blijven, aan de andere kant de grote groep minder gelukkigen.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Het is vaak opgemerkt de initiatiefrijke, flexibele, onzekere </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘creatieveling’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> het archetype van de postfordistische arbeider is. Filosoof Thijs Lijster beschrijft dit archetype, in navolging van voetbalcoach Louis van Gaal, als </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘de totaalmens’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Thijs Lijster, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De grote vlucht inwaarts: Essays over cultuur in een onoverzichtelijke wereld</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Amsterdam: De bezige bij, 2017). Zie verder o.a.: Pascal Gielen, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Repressief liberalisme: Opstellen over creatieve arbeid, politiek en kunst</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Amsterdam: Valiz, 2013), Kuba Szreder, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>The ABC of the Projectariat: Living and Working in a Precaious Art World</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Manchester: Manchester UP, 2021) en Bojana Kunst, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Artist at Work: Proximity of Art and Capitalism</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Winchester en Washington: Zero Books, 2015).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Maar hoe scherp ook, de tegenstelling blijft poreus. In de reputatie-economie van beurstoekenningen, openingen en media-aandacht, van zien en gezien worden, kan bestaanszekerheid op elk moment worden op- of afgebouwd. Silvio Lorusso vatte deze situatie treffend samen in de leus: </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Iedereen is een ondernemer, niemand is veilig.’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Dit is de ondertitel van Lorusso’s boek </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Entreprecariat: Everybody Is an Entrepreneur, Nobody Is Safe</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Eindhoven: Onomatopee, 2018).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Mecenaat bekleedt in deze constellatie de functie van magisch element, die naast de schijnbare berekenbaarheid van ondernemerschap de hoop op het intrinsiek en fundamenteel onverklaarbare engagement van giften plaatst.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>We kunnen de symbiose van de verschillende vormen van publieke en private financiering in de kunst begrijpen als het in stand houden van de nog-net-regeerbare staat die het gehele neoliberalisme kenmerkt. Filosoof Isabell Lorey schrijft hierover in </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Het regeren van de precairen</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>:</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Het pendant van precair is doorgaans een situatie van bescherming, waarin elk onderkend gevaar politiek en sociaal immuun wordt gemaakt. […] Maar als macht in de postfordistische samenleving niet langer via (sociale) veiligheid wordt gelegitimeerd en wij in onze eigen tijd een regeren door onzekerheid beleven, dan zijn precair en immuun, onveiligheid en zekerheid/bescherming steeds minder een absolute tegenstelling en vormen ze steeds vaker een gradueel verschil binnen een gereguleerd grensvlak, de drempel van het (nog net) regeerbare.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Isabell Lorey, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Het regeren van de precairen: De staat van onzekerheid</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Amsterdam: Octavo, 2016(2012)), pp. 14-15.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De vraag of de verzorgingsstaat nog te redden is, of dat we nieuwe vormen van bestaanszekerheid moeten ontwikkelen, ligt buiten de reikwijdte van deze bundel.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Ik heb deze vraag verder uitgediept in Sepp Eckenhaussen, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Post-precariteit’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Institute of Network Cultures,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 3 juni 2021, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-18" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://networkcultures.org/longform/2021/06/03/post-precariteit/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Wel lijkt het me van belang om vast te stellen dat mecenaat als onzeker-houder een integraal onderdeel uitmaakt van het neoliberale project.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Het neoliberale project is geen samenzwering, maar kan beter begrepen worden als ideologie of biopolitiek. Wie haar machinaties wil leren kennen, hoeft niet op zoek te gaan naar Big Brother, maar kan zich melden bij commissievergaderingen van rijkscultuurfondsen, vriendenkringbijeenkomsten en business clubs van musea, de bestuurskamers van het ministerie van OC&amp;W en de Raad voor Cultuur, ketentafeloverleggen, gemeentelijke stuurgroepen, vakbonden, verenigingen, of bij een van de vele andere kleilagen van de macht waar aanwezigen hun deelbelang verdedigen.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Incidentele giften én de hoop op een magisch moment van erkenning dragen bij aan het in stand houden van de nog-net-regeerbaarheid van de cultuursector tijdens de afbraak van collectieve zekerheidsstructuren en de erosie van zelfbeschikking op de werkvloer.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Deze precarisering-door-charitas is niet alleen werkzaam in kunst en cultuur. Ook bij het afwentelen van de collectieve zorgplicht op mantelzorgers in naam van de </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘participatiemaatschappij’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> spelen vrijgevigheid en naastenliefde een grote rol. Maatschappijbreed is ook de onvrede over deze voortschrijdende precarisering. Terwijl ik deze conclusie schrijf, in het najaar van 2023, komt de verkiezingscampagne voor de komende Tweede Kamer-verkiezingen op gang waarbij bestaanszekerheid tot hoofdthema uitgroeit.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Een discussie over mecenaat kan gevoerd worden met nuance en begrip, met waardering voor vrijgevigheid en met oog voor de toegevoegde waarde van de giftcultuur. Toch zullen we altijd onder ogen moeten zien dat giftcultuur een </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>enabler</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> van sociaal afbraakbeleid is. Of misschien kunnen we de zaak beter andersom bekijken: mecenaat wordt op dit moment gegijzeld als neoliberale functie. In typisch neoliberale stijl creëert overheidsbeleid een steeds grotere verknoping en daarmee een wederzijdse afhankelijkheid tussen publiek en privaat. Nu mecenaat een integraal onderdeel is geworden van neoliberaal bestuur, kan het bijna niet meer anders dan functioneren als neoliberaal instrument.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Nu is deze situatie geen onvermijdelijke. Mecenaat was immers al groot voor het oude liberalisme opkwam. Kunnen we ons een mecenaat aan gene zijde van het neoliberalisme voorstellen?</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#stelling-5-een-revolutie-van-machtspatronen-vindt-op-dit-moment-plaats" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Stelling 5: Een revolutie van machtspatronen vindt op dit moment plaats</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Veel maatschappelijke onrust over de rol van filantropie wordt veroorzaakt door het revolutionaire handelen van een kleine groep grote filantropen die zich boven de wet, belastingplicht en democratische processen verheven achten. De ideologie die deze machtspatronen verkondigen, bijvoorbeeld bij monde van Wim Pijbes, pleit voor minder regelgeving en meer vertrouwen in het grote geld voor het bewaken van de (nationale) cultuur en haar kwaliteitsstandaarden.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Pijbes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Vernieuwing bij musea is gebaat bij ruimte’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> We kunnen dit vertoog neo-illiberaal noemen: een beroep op klassiek-liberale waarden vanuit een elitair-autocratische en chauvinistische inslag, met groot wantrouwen tegenover de democratische controlemechanismes van de liberale staat.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Een definitie en analyse van neo-illiberalisme wordt gegeven door Reijer Hendrikse, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Neo-illiberalism’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Geoforum,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> nr. 95, pp. 169-172, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-19" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://doi.org/10.1016/j.geoforum.2018.07.002</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Onder de Nederlandse machtspatronen zal men naar alle waarschijnlijkheid geen aanhangers van Trump of Orbán vinden, maar naast een autocratisch-elitair machtsideaal en een conservatief-liberaal cultuuridee, is idealisering van de Amerikaanse situatie wel degelijk een opvallende eigenschap van de machtspatroon. Zo kijkt Pijbes vooral naar New York voor de </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘heruitvinding’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> van het museum. Pijbes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Vernieuwing bij musea is gebaat bij ruimte’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Haar aanhangers hebben geen zin meer in het </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>matchen</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> van overheidsbesluiten en verwerpen de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘opgedrongen politiek-correcte duiding’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Ze willen terug naar </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘kunst zoals kunst bedoeld is’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> en gaan over tot initiatief.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Pijbes, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Vernieuwing bij musea is gebaat bij ruimte’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Ze stichten eigen musea of nemen de controle over bij publieke instellingen, ze ontwikkelen eigenhandig de stedelijke omgeving en geven naar eigen inzicht vorm aan de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘collectie Nederland’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Deze revolutie van de machtspatroon is een bevrijding van het mecenaat uit de neoliberale gijzeling, waarbij de last van een leunende overheid wordt afgeworpen. Voor zover de machtspatroon vasthoudt aan een publiek gestuurd vertoog van diversiteit en democratisering, is dat eerder een uiting van populisme en marketing dan van publieke rekenschap.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Een goed voorbeeld van privaat kunstinitiatief met een populistisch-progressief beleid is de internationale kunsthalketen Fotografiska, met locaties in Stockholm, New York, Tallinn, Berlijn en Sjanghai. Fotografiska opereert als bedrijf met winstoogmerk, met hetzelfde lidmaatschapsmodel als het Soho House: bezoekers worden lid en krijgen toegang tot een sociale ruimte met kunst, winkels en horeca. Het bedrijf reageert snel op maatschappelijke ontwikkelingen, zoals het openstellen van de ruimte in New York en het Instagram-account voor mensen uit de BLM-beweging, en heeft maatschappelijke- en educatieprogramma’s. In een interview stelde oprichter en eigenaar Yoram Roth over de functie van Fotografiska: </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘We want to be that third place. You have work, and you have home, and where else do you go? It used to be the church. In the perfect environment, the third place would be free, but the membership of Fotografiska is not that much. To be surrounded by other people who are culturally curious and want to talk, is a great thing to do!’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Fotografiska </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘rebrandt’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> de publieke ruimte als </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘derde plek’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, met bijbehorende saus van maatschappelijke betrokkenheid. </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Fotografiska’s Bold New Model for Museums’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>The Art Angle,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 12 oktober 2023, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-20" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Toch zit het er dik in dat het filantropisch initiatief via de achterdeur binnenkomt in het publiek gefinancierde deel van de beeldende kunstsector en begint mee te dingen naar de middelen die sinds Zijlstra sowieso al zijn gehalveerd. In deze harde concurrentie heeft het filantropisch initiatief de grote voorsprong van private basisfinanciering. In het uiterste, maar zeker voorstelbare geval neemt de mecenas het roer van het cultuurbeleid over en blijft de overheid achter als matchende derde.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Als gevolg van dit proces komt ook het georganiseerde werkveld buiten spel te staan. De gesprekspartners van de overheid in het bepalen van beleid, zoals vakbonden, collectieven, comités, beroeps- en brancheverenigingen, hebben bij privaat initiatief geen plek aan tafel. Hier kan geen misverstand over bestaand: geen enkele machtspatroon zit te wachten op de goedkeuring van de vakbond. Het solistisch handelen van de machtspatroon is dus een ondermijning van publieke zeggenschap én van arbeidersemancipatie. Een bevrijding in desastreuze richting.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#stelling-6-een-democratische-bevrijding-van-mecenaat-is-mogelijk" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Stelling 6: Een democratische bevrijding van mecenaat is mogelijk</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Welk antwoord stelt de kunstenaar tegenover de revolutie van de machtspatroon?</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Zoals gebruikelijk bij Platform BK, vat ik </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘de kunstenaar’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> ruim op, met inbegrip van andere zelfstandige kunstwerkers zoals curatoren, critici, kunstschrijvers, tentoonstellingsbouwers en ontwerpers.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Het is urgent om snel, publiekelijk en concreet te verkennen of er meer democratische mogelijkheden zijn voor een geefcultuur voorbij neoliberalisme. Niet alleen ethische principes en politieke visies zijn daarbij belangrijk, maar ook tactische interventies.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Precariteit heerst in de cultuursector en mecenaat is, wat men daar ook van vindt, op dit moment een belangrijke geldstroom. Het is dus belangrijk dat makers en organisaties goed met deze situatie om kunnen gaan en dat pakken wat je pakken kan niet meteen wordt afgedaan als opportunisme. Op deze lijn zit Helleke van den Brabers betoog dat kunstenaars goed moeten kunnen nadenken over het soort relatie dat zij willen gaan met mecenaat, actief een vraag kunnen formuleren en hun eigen grenzen kunnen stellen. Ook Renée Steenbergens oproep dat precair werkenden meer directe toegang tot filantropisch geld moeten krijgen, is in dit opzicht relevant. Praktische gevolgtrekkingen van deze reflecties lopen uiteen van het openen van makersloketten, tot het transparant maken van criteria bij filantropische fondsen en het aanbieden van cursussen onderhandelen voor kunstenaars. Kleine verbeteringen die kunstwerkers in de praktijk meteen kunnen merken.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Maar tactische interventies zijn niet enkel pleisters op een stuk systeem. Zij bieden juist vrije ruimte voor speculatie, verbeelding en prefiguratie van nieuwe organisatievormen. Zo vallen in deze lijn ook experimenten met radicaal gelijkwaardig geven. Denk aan de Berlijnse geefkring Circles, die blockchain-technologie gebruikt om zelforganiserend een basisinkomen voor cultuurwerkers te realiseren.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Zie: </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-21" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://circles.coop/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Ook het Nederlandse model van het broodfonds kan gezien worden als blauwdruk voor een solidaire geefpraktijk, zie: </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-22" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://www.broodfonds.nl/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>. Zie voor een diepere analyse van de wisselwerking tussen zelforganiserend geven in de kunst en de strijd voor het basisinkomen: Marco Baravalle, Emanuele Braga en Gabriella Riccio (red.) </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Art for UBI Manifesto</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Milaan: Institute of Radical Imagination, 2022).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Of aan het Actiefonds, dat kleine gevers verbindt aan wereldwijde acties voor sociale rechtvaardigheid en zo een brug van solidariteit vormt.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Zie: </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-23" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>https://hetactiefonds.nl/en/homepage/</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Tactisch handelen kan resulteren in nieuwe vormen van geven – gedecentraliseerd, collectief, anoniem, gemeenschappelijk, solidair – die op hun beurt een proeftuin zijn voor nieuwe ethische principes en politieke visies.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ondanks mijn zorgen over zowel de neoliberale functie van mecenaat als revolutie van de machtspatroon, ben ik ervan overtuigd dat een van onderaf georganiseerde bevrijding van mecenaat in democratische richting mogelijk is. Als mecenaat politiek wordt in de verdeling van zekerheid en onzekerheid, dan toont zich hierin een grote vrijheid: de fundamentele niet-regeerbaarheid van gulheid. Laat deze niet-regeerbaarheid een basis worden voor een solidaire geefcultuur die cultuurwerkers samen vormgeven.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//hetactiefonds.nl/en/homepage/" Name="link" DestinationURL="https://hetactiefonds.nl/en/homepage/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-23" Name="https://hetactiefonds.nl/en/homepage/" Source="htss-23" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//hetactiefonds.nl/en/homepage/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.broodfonds.nl/" Name="link" DestinationURL="https://www.broodfonds.nl/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-22" Name="https://www.broodfonds.nl/" Source="htss-22" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.broodfonds.nl/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//circles.coop/" Name="link" DestinationURL="https://circles.coop/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-21" Name="https://circles.coop/" Source="htss-21" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//circles.coop/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445" Name="link" DestinationURL="https://news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-20" Name="https://news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445" Source="htss-20" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//doi.org/10.1016/j.geoforum.2018.07.002" Name="link" DestinationURL="https://doi.org/10.1016/j.geoforum.2018.07.002" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-19" Name="https://doi.org/10.1016/j.geoforum.2018.07.002" Source="htss-19" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//doi.org/10.1016/j.geoforum.2018.07.002</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//networkcultures.org/longform/2021/06/03/post-precariteit/" Name="link" DestinationURL="https://networkcultures.org/longform/2021/06/03/post-precariteit/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-18" Name="https://networkcultures.org/longform/2021/06/03/post-precariteit/" Source="htss-18" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//networkcultures.org/longform/2021/06/03/post-precariteit/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.platformbk.nl/de-politiek-van-de-artistieke-arbeid/" Name="link" DestinationURL="https://www.platformbk.nl/de-politiek-van-de-artistieke-arbeid/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-17" Name="https://www.platformbk.nl/de-politiek-van-de-artistieke-arbeid/" Source="htss-17" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.platformbk.nl/de-politiek-van-de-artistieke-arbeid/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.wrr.nl/publicaties/verkenningen/2018/10/31/verkenning-filantropie-op-de-grens-van-overheid-en-markt" Name="link" DestinationURL="https://www.wrr.nl/publicaties/verkenningen/2018/10/31/verkenning-filantropie-op-de-grens-van-overheid-en-markt" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-16" Name="https://www.wrr.nl/publicaties/verkenningen/2018/10/31/verkenning-filantropie-op-de-grens-van-overheid-en-markt" Source="htss-16" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.wrr.nl/publicaties/verkenningen/2018/10/31/verkenning-filantropie-op-de-grens-van-overheid-en-markt</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.platformbk.nl/a-call-to-open-calls-2/" Name="link" DestinationURL="https://www.platformbk.nl/a-call-to-open-calls-2/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-15" Name="https://www.platformbk.nl/a-call-to-open-calls-2/" Source="htss-15" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.platformbk.nl/a-call-to-open-calls-2/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/" Name="link" DestinationURL="https://www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-14" Name="https://www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/" Source="htss-14" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.janvaneyck.nl/calendar/open-studios-2023" Name="link" DestinationURL="https://www.janvaneyck.nl/calendar/open-studios-2023" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-13" Name="https://www.janvaneyck.nl/calendar/open-studios-2023" Source="htss-13" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.janvaneyck.nl/calendar/open-studios-2023</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen" Name="link" DestinationURL="https://www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-12" Name="https://www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen" Source="htss-12" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50436_de_nieuwe_messias" Name="link" DestinationURL="https://www.metropolism.com/nl/opinion/50436_de_nieuwe_messias" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-11" Name="https://www.metropolism.com/nl/opinion/50436_de_nieuwe_messias" Source="htss-11" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50436_de_nieuwe_messias</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4" Name="link" DestinationURL="https://www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-10" Name="https://www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4" Source="htss-10" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-9" Name="https://www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885" Source="htss-9" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.collecteurs.com/article/privatizing-the-institution" Name="link" DestinationURL="https://www.collecteurs.com/article/privatizing-the-institution" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-8" Name="https://www.collecteurs.com/article/privatizing-the-institution" Source="htss-8" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.collecteurs.com/article/privatizing-the-institution</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.oorlogsbronnen.nl/thema/Spitfire%20Fund" Name="link" DestinationURL="https://www.oorlogsbronnen.nl/thema/Spitfire%20Fund" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-7" Name="https://www.oorlogsbronnen.nl/thema/Spitfire%20Fund" Source="htss-7" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.oorlogsbronnen.nl/thema/Spitfire%20Fund</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas" Name="link" DestinationURL="https://www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-6" Name="https://www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas" Source="htss-6" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html" Name="link" DestinationURL="https://dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-5" Name="https://dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html" Source="htss-5" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//open.spotify.com/episode/5m0Y9K4Kd66s6Z1iDEvNb5?si=uj3ezqb0SmqOtqXyFrWB8A" Name="link" DestinationURL="https://open.spotify.com/episode/5m0Y9K4Kd66s6Z1iDEvNb5?si=uj3ezqb0SmqOtqXyFrWB8A" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-4" Name="https://open.spotify.com/episode/5m0Y9K4Kd66s6Z1iDEvNb5?si=uj3ezqb0SmqOtqXyFrWB8A" Source="htss-4" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//open.spotify.com/episode/5m0Y9K4Kd66s6Z1iDEvNb5?si=uj3ezqb0SmqOtqXyFrWB8A</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst" Name="link" DestinationURL="https://www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-3" Name="https://www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst" Source="htss-3" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.platformbk.nl/paradiso-debat-2023-2/" Name="link" DestinationURL="https://www.platformbk.nl/paradiso-debat-2023-2/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-2" Name="https://www.platformbk.nl/paradiso-debat-2023-2/" Source="htss-2" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.platformbk.nl/paradiso-debat-2023-2/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/" Name="link" DestinationURL="https://www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-1" Name="https://www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/" Source="htss-1" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/</Destination>
+    </Properties>
+  </Hyperlink>
+</Document>

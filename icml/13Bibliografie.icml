@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Link" Name="Link">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Underline" Name="Underline">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#bibliografie" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Bibliografie</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Adams, Georgina. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Rise and Rise of Private Art Museum</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Londen: Lund Humphries, 2021).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘AD 010-debat: Hoe verder met Museum Boijmans van Beuningen?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Arminius,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 3 juli 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://arminius.nl/ad-010-debat-hoe-verder-met-museum-boijmans-van-beuningen/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bartijn, Koen. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘First decisions voor de nieuwe regering: Een pleidooi voor vernieuwd vertrouwen in kunstenaars’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Mister Motley,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 3 januari 2022, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.mistermotley.nl/first-decisions-voor-de-nieuwe-regering-een-pleidooi-voor-hernieuwd-vertrouwen-in-de-kunstenaars/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bauwens, Lietje en Jack Segbars. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Kunst en (anti-)gentrificatie in Rotterdam: Over stedelijke politiek als artistieke praktijk’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 10 maart 2022, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-3" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.metropolism.com/nl/opinion/46209_kunst_en_anti_gentrificatie_in_rotterdam_over_stedelijke_politiek_als_artistieke_praktijk</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Beek, Monica, en Antti Liukku. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘D66-frontvrouw Chantal Zeegers: 'Betalen is ook bepalen?'’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>AD,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22 september 2018, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-4" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Benjamin, Jan. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De massa als de nieuwe mecenas’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 25 september 2010, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-5" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2010/09/25/de-massa-als-de-nieuwe-mecenas-11947724-a863503</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bloemink, Sanne. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Op zoek naar filantropen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De Groene Amsterdammer</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 15 juni 2011, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-6" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.groene.nl/artikel/op-zoek-naar-filantropen</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bogdanović, Zoran, Evert de Vos en Pascival Weijnen, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De ondernemende mecenas: Hoe superrijken hun liefdadigheid organiseren’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De Groene Amsterdammer,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 7 februari 2018, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-7" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.groene.nl/artikel/de-ondernemende-mecenas</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Borg, Lucette ter en Hella Rottenberg. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Hoe het Stedelijk zich uitlevert aan ABN Amro’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Vrij Nederland,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2 juli 2005, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-8" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.vn.nl/hoe-het-stedelijk-zich-uitlevert-aan-abn-amro/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Braber, Helleke van den. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Mecenaat moet weer statussymbool worden’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 29 oktober 2010, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-9" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/nieuws-achtergrond/mecenaat-moet-weer-statussymbool-worden~b7567c55/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Braber, Helleke van den, en Rocco Hueting. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Welke ruimte willen we rijke rockliefhebbers geven?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22 maart 2018, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-10" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/columns-opinie/welke-ruimte-willen-we-rijke-rockliefhebbers-geven~ba5e4d22/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Braber, Helleke van den, en Rocco Hueting. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Popmecenaat is er nog niet, maar kan er komen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 12 mei 2020, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-11" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/columns-opinie/opinie-popmecenaat-is-er-nog-niet-maar-kan-er-komen~baff0c7b/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Braber, Helleke van den. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Van maker naar mecenaat (en weer terug): Over giftuitwisseling in de kunsten.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Utrecht: Universiteit van Utrecht, 2021.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Brinkman, Manus. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De verzelfstandiging: Waarom en hoe rijksmusea zelfstandiger werden.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Amsterdam: Reinwardt Academie, 2015).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Daamen, Melle. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Eerst nadenken over sponsoring en mecenaat’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Vakblad fondsenwerving,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 3 januari 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-12" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.fondsenwerving.nl/verdieping/artikel/2023/01/03/Eerst-nadenken-over-sponsoring-en-mecenaat</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dam, Erik van. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Vordense miljardair (85) voor de rechter om Iraaks gifgas’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Omroep Gelderland,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 16 juni 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-13" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dankert, Zoë. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Kunst &amp; klimaat: De lange arm – wat zoekt de fossiele industrie in de kunst?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 16 september 2020, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-14" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dirks, Bart. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Nederlands Fotomuseum krijgt gift van 38 miljoen en koopt pakhuis in Rotterdam’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 14 juli 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-15" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/cultuur-media/nederlands-fotomuseum-krijgt-gift-van-38-miljoen-en-koopt-pakhuis-in-rotterdam~b4843113/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dohmen, Joep. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘In het spoor van de weldoener met 800 miljoen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 16 juli 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-16" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2023/07/16/goed-geld-uit-het-belastingparadijs-a4169807</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Dossier mecenas en mecenaat’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cultuur+Ondernemen,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 16 februari 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-17" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.cultuur-ondernemen.nl/culturele-financieringswijzer/dossier/mecenas-en-mecenaat</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Eckenhaussen, Sepp. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De slag om het museum: Een ode aan klimaatactivisten in de kunst’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Dagblad van het Noorden,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2 januari 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-18" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Elshout, Dos. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De moderne museumwereld in Nederland: Sociale dynamiek in beleid, erfgoed, markt, wetenschap en media</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Amsterdam: Universiteit van Amsterdam, 2016).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Faes, Nous. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Blindgangers’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 13 juni 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-19" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.metropolism.com/nl/opinion/49861_column_10_blindgangers</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Faes, Nous. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De nieuwe messias’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 29 augustus 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-20" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.metropolism.com/nl/opinion/50436_de_nieuwe_messias</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Faes, Nous. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Bemoeigoederen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 30 september 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-21" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Filantropie om overheidsfalen te overleven’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>FD,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 28 oktober 2021, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-22" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://fd.nl/tech-en-innovatie/1415039/filantropie-om-overheidsfalen-te-overleven</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Fotografiska’s Bold New Model for Museums’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Art Angle,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 12 oktober 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-23" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fraser, Andrea. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Philantropy and Plutocracy’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>October,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1 december 2017, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-24" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://direct.mit.edu/octo/article/doi/10.1162/OCTO_a_00308/59381/Philanthropy-and-Plutocracy</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Geluk, Maurice. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Hoe de steenrijke familie Van der Vorm macht en invloed koopt in Rotterdam’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Vers Beton,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 18 november 2020, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-25" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.versbeton.nl/2020/11/hoe-de-steenrijke-familie-van-der-vorm-macht-en-invloed-koopt-in-rotterdam/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Goede, Peter de, Erik Schrijvers en Marianne de Visser (red.) </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Filantropie op de grens van overheid en markt.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Den Haag: Wetenschappelijke Raad voor het Regeringsbeleid, 2018.)</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Gollin, Rob, en Joost Ramaer. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Weldoeners gezocht’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 9 september 2004, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-26" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Griffioen, Roel. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Brood en spelen: Kunst als schakel in het vastgoedbedrijf’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2022, pp. 81-86.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hemels, Sigrid-Joan Catharine, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Door de muze omhelsd: Een onderzoek naar de inzet van belastingsubsidies voor kunst en cultuur in Nederland</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Leiden: Universiteit Leiden, 2005).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hendrikse, Reijer. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Neo-illiberalism’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Geoforum,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> nr. 95, pp. 169-172, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-27" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://doi.org/10.1016/j.geoforum.2018.07.002</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Jaeger, Toef. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Conflict tussen museum Boijmans en mecenas over bijdrage verbouwing’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 16 mei 2019, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-28" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2019/05/16/conflict-tussen-museum-boijmans-en-mecenas-over-bijdrage-verbouwing-a3960497</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kamerman, Sheila. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Het beeld staat er nog geen twee maanden en is nu al een Rotterdams icoon’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 23 juli 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-29" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2023/07/23/het-beeld-is-nog-geen-twee-maanden-oud-en-nu-al-een-rotterdams-icoon-a4170385</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>König, Eppo. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>“Boijmans Modern”</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> in Rotterdam-Zuid blijft slechts een droom’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 20 december 2020, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-30" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2020/12/20/boijmans-modern-in-rotterdam-zuid-blijft-slechts-een-droom-a4024633</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kruijt, Michiel. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Fossil Free Culture NL claimt dat steeds meer musea Shell laten vallen – maar de musea ontkennen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 30 augustus 2018, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-31" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/cultuur-media/fossil-free-culture-nl-claimt-dat-steeds-meer-musea-shell-laten-vallen-maar-de-musea-ontkennen~b843270c/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kruijt, Michiel, en Bart Dirks. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De nieuwe mecenas wil invloed op cultuursector, wen er maar aan’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15 mei 2019, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-32" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/nieuws-achtergrond/de-nieuwe-mecenas-wil-invloed-op-cultuursector-wen-er-maar-aan~bc2be21b/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kruijt, Michiel, en Bart Dirks. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Gift van miljoenen euro’s voor verbouwing Museum Boijmans is onzeker’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15 mei 2019, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-33" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/nieuws-achtergrond/gift-van-miljoenen-euro-s-voor-verbouwing-museum-boijmans-is-onzeker~b2c1f236/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kruijt, Michiel. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Noodlijdend Cobra Museum voorlopig van de ondergang gered door verzamelaar Marius Touwen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 11 september 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-34" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lapidaire, Caroline. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Stop de veramerikanisering van de cultuursector’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 8 september 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-35" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Leendert, Maaike van. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De drempel over? Obstakels en kansen voor een literaire vraagcultuur’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> in </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De waarde van cultuur na corona: Congresbundel</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Amsterdam: Boekmanstichting, 2022): 47-50.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Leeuwen, Anna van. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Amsterdam wil op de Zuidas een nieuw particulier museum voor hedendaagse kunst’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 28 augustus 2021, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-36" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/cultuur-media/amsterdam-wil-op-de-zuidas-een-nieuw-particulier-museum-voor-hedendaagse-kunst~b0176ad3/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Leeuwen, Anna van. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Het aantal particuliere musea groeit wereldwijd, maar dat maakt kunst ook kwetsbaar, vinden critici’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 12 april 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-37" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/cultuur-media/het-aantal-particuliere-musea-groeit-wereldwijd-maar-dat-maakt-kunst-ook-kwetsbaar-vinden-critici~b2de1555/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Leeuwen, Marco van. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Verwelkom de filantroop’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Sociale Vraagstukken,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 9 januari 2012, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-38" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.socialevraagstukken.nl/verwelkom-de-filantroop/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Leve het geven: Een onderzoek naar particulier geven aan creatieve professionals’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Stichting voordekunst en Van Dooren Advies in opdracht van Platform ACCT, december 2020, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-39" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://levehetgeven.nl/Leve-het-geven.pdf</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lorey, Isabell. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Het regeren van de precairen: De staat van onzekerheid</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Amsterdam: Octavo, 2016(2012)).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>McGoey, Linsey. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>No Such Thing as a Free Gift: The Gates Foundation and the Price of Philanthropy</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (New York: Verso, 2015).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Miralda Tena, Angèls. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Privatizing the Museum’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Collecteurs,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2019, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-40" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.collecteurs.com/article/privatizing-the-institution</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>O’Neill, Megan. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Netherlands Tops List of Charity-Friendly Country, Study Says’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Chronicle of Philantropy,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 16 juni 2015, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-41" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.philanthropy.com/article/netherlands-tops-list-of-charity-friendly-countries-study-says/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Persson, Michael, en Robèrt Misset. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Wie is de geheimzinnige familie die Rotterdam verrijkt – met geld dat de staatskas wordt onthouden?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 3 juni 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-42" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/kijkverder/v/2023/de-geheimzinnige-familie-die-rotterdam-verrijkt-met-geld-dat-de-staatskas-wordt-onthouden~v744981/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Pijbes, Wim. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Vernieuwing bij musea is gebaat bij ruimte, niet bij regels’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22 juni 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-43" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2023/06/22/vernieuwing-bij-musea-is-gebaat-bij-ruimte-niet-bij-regels-a4167906</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Reich, Rob. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Repugnant to the Whole Idea of Democracy? On the Role of Foundations in Democratic Societies’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>American Political Science Association</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 2016, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-44" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://inequality.stanford.edu/sites/default/files/Reich-paper-2.pdf</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Underline">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ribbens, Arjen. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Stichting Droom en Daad start tijdelijke financieringsregeling voor Rotterdamse kunstenaars’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22 maart 2021, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-45" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2021/03/22/stichting-droom-en-daad-start-tijdelijke-financieringsregeling-voor-rotterdamse-kunstenaars-a4036709</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Santen, Hester van. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Na een slecht beursjaar en </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>“De Vaandeldrager”</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> komt het Rijksmuseum Fonds reserves tekort’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 4 augustus 2023, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-46" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2023/08/04/na-slecht-beursjaar-en-vaandeldrager-zijn-de-reserves-op-a4171279</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Schnabel, Paul. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Het museum tussen markt en mecenas’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 31 juli 2014, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-47" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2014/07/31/het-museum-tussen-markt-en-mecenas-1406136-a680573</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Schuyt, Theo. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Hoe moeten overheid en filantropie met elkaar omgaan?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 14 januari 2021, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-48" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2021/01/14/hoe-moeten-overheid-en-filantropie-met-elkaar-omgaan-a4027432</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Sennema, Hilde. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Filantropie in Rotterdam: Een traditie tussen argwaan en vertrouwen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Vers Beton</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 18 november 2020, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-49" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.versbeton.nl/2020/11/filantropie-in-rotterdam-een-traditie-tussen-argwaan-en-vertrouwen/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Smid, Ally. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Hoogleraar mecenaatstudies Helleke van den Braber: </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>“Makers en gevers moeten in de benen komen”</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Trouw,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 17 januari 2021, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-50" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.trouw.nl/cultuur-media/hoogleraar-mecenaatstudies-helleke-van-den-braber-makers-en-gevers-moeten-in-de-benen-komen~bbaa355e/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Smit, Eric. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Onfrisse filantropen’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Follow the Money,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 5 mei 2014, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-51" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.ftm.nl/artikelen/onfrisse-filantropen</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Smit, Eric. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>“Besmet”</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> geld van cultuurfonds Ammodo: aannemen of niet?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Follow the Money,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 8 mei 2014, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-52" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.ftm.nl/artikelen/besmet-geld-van-cultuurfonds-ammodo-aannemen-niet</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Steenbergen, Renée. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De nieuwe mecenas: Cultuur en de terugkeer van het particuliere geld</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Amsterdam: BusinessContact, 2008).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Steenbergen, Renée. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Dat nieuwe museum is een wel heel brutale actie’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2 september 2021, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-53" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2021/09/02/dat-nieuwe-museum-is-een-wel-heel-brutale-actie-a4056879?t=1692796318</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Steenhuisen, Julia. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De collectie als goed doel: Wie profiteert het meest van het verzamelen?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 10 april 2019, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-54" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.metropolism.com/nl/opinion/37888_de_collectie_als_goed_doel_wie_profiteert_het_meest_van_het_verzamelen</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tijsma, Philip. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘De terugkeer van de mecenas’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Boekman #62,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2005, pp. 76-78.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Velthuis, Olav. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Amerikaanse toestanden: De particuliere greep op het museum’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metropolis M,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2008, nr. 3.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Velthuis, Olav. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Het gevaarlijke spel van artistieke smaak, groot geld en brute macht in de kunstwereld’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Volkskrant,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 20 oktober 2017, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-55" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.volkskrant.nl/columns-opinie/het-gevaarlijke-spel-van-artistieke-smaak-groot-geld-en-brute-macht-in-de-kunstwereld~b5396e89/</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Velthuis, Olav, e.a. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Beyond the Global Boom: Private Art Museums in the 21st Century</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (Amsterdam: Universiteit van Amsterdam, 2023).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Vrieze, Atze de. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Fooien, donaties en crowdfunds: Het taboe voorbij’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>3voor12,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 23 april 2020, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-56" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://3voor12.vpro.nl/artikelen/overzicht/2020/april/Crowdfunds-en-donaties--het-taboe-voorbij.html</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Waard, Michèle de. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Fonds zit vol met geld, maar niet voor de gepensioneerden’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>NRC,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15 april 2008, </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-57" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://www.nrc.nl/nieuws/2008/04/15/fonds-zit-vol-met-geld-maar-niet-voor-de-gepensioneerden-11521846-a750698#/handelsblad/2008/04/15/#217</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2008/04/15/fonds-zit-vol-met-geld-maar-niet-voor-de-gepensioneerden-11521846-a750698#/handelsblad/2008/04/15/" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2008/04/15/fonds-zit-vol-met-geld-maar-niet-voor-de-gepensioneerden-11521846-a750698#/handelsblad/2008/04/15/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-57" Name="https://www.nrc.nl/nieuws/2008/04/15/fonds-zit-vol-met-geld-maar-niet-voor-de-gepensioneerden-11521846-a750698#/handelsblad/2008/04/15/" Source="htss-57" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2008/04/15/fonds-zit-vol-met-geld-maar-niet-voor-de-gepensioneerden-11521846-a750698#/handelsblad/2008/04/15/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//3voor12.vpro.nl/artikelen/overzicht/2020/april/Crowdfunds-en-donaties--het-taboe-voorbij.html" Name="link" DestinationURL="https://3voor12.vpro.nl/artikelen/overzicht/2020/april/Crowdfunds-en-donaties--het-taboe-voorbij.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-56" Name="https://3voor12.vpro.nl/artikelen/overzicht/2020/april/Crowdfunds-en-donaties--het-taboe-voorbij.html" Source="htss-56" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//3voor12.vpro.nl/artikelen/overzicht/2020/april/Crowdfunds-en-donaties--het-taboe-voorbij.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/columns-opinie/het-gevaarlijke-spel-van-artistieke-smaak-groot-geld-en-brute-macht-in-de-kunstwereld~b5396e89/" Name="link" DestinationURL="https://www.volkskrant.nl/columns-opinie/het-gevaarlijke-spel-van-artistieke-smaak-groot-geld-en-brute-macht-in-de-kunstwereld~b5396e89/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-55" Name="https://www.volkskrant.nl/columns-opinie/het-gevaarlijke-spel-van-artistieke-smaak-groot-geld-en-brute-macht-in-de-kunstwereld~b5396e89/" Source="htss-55" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/columns-opinie/het-gevaarlijke-spel-van-artistieke-smaak-groot-geld-en-brute-macht-in-de-kunstwereld~b5396e89/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/37888_de_collectie_als_goed_doel_wie_profiteert_het_meest_van_het_verzamelen" Name="link" DestinationURL="https://www.metropolism.com/nl/opinion/37888_de_collectie_als_goed_doel_wie_profiteert_het_meest_van_het_verzamelen" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-54" Name="https://www.metropolism.com/nl/opinion/37888_de_collectie_als_goed_doel_wie_profiteert_het_meest_van_het_verzamelen" Source="htss-54" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/37888_de_collectie_als_goed_doel_wie_profiteert_het_meest_van_het_verzamelen</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2021/09/02/dat-nieuwe-museum-is-een-wel-heel-brutale-actie-a4056879?t=1692796318" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2021/09/02/dat-nieuwe-museum-is-een-wel-heel-brutale-actie-a4056879?t=1692796318" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-53" Name="https://www.nrc.nl/nieuws/2021/09/02/dat-nieuwe-museum-is-een-wel-heel-brutale-actie-a4056879?t=1692796318" Source="htss-53" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2021/09/02/dat-nieuwe-museum-is-een-wel-heel-brutale-actie-a4056879?t=1692796318</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.ftm.nl/artikelen/besmet-geld-van-cultuurfonds-ammodo-aannemen-niet" Name="link" DestinationURL="https://www.ftm.nl/artikelen/besmet-geld-van-cultuurfonds-ammodo-aannemen-niet" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-52" Name="https://www.ftm.nl/artikelen/besmet-geld-van-cultuurfonds-ammodo-aannemen-niet" Source="htss-52" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.ftm.nl/artikelen/besmet-geld-van-cultuurfonds-ammodo-aannemen-niet</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.ftm.nl/artikelen/onfrisse-filantropen" Name="link" DestinationURL="https://www.ftm.nl/artikelen/onfrisse-filantropen" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-51" Name="https://www.ftm.nl/artikelen/onfrisse-filantropen" Source="htss-51" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.ftm.nl/artikelen/onfrisse-filantropen</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.trouw.nl/cultuur-media/hoogleraar-mecenaatstudies-helleke-van-den-braber-makers-en-gevers-moeten-in-de-benen-komen~bbaa355e/" Name="link" DestinationURL="https://www.trouw.nl/cultuur-media/hoogleraar-mecenaatstudies-helleke-van-den-braber-makers-en-gevers-moeten-in-de-benen-komen~bbaa355e/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-50" Name="https://www.trouw.nl/cultuur-media/hoogleraar-mecenaatstudies-helleke-van-den-braber-makers-en-gevers-moeten-in-de-benen-komen~bbaa355e/" Source="htss-50" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.trouw.nl/cultuur-media/hoogleraar-mecenaatstudies-helleke-van-den-braber-makers-en-gevers-moeten-in-de-benen-komen~bbaa355e/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.versbeton.nl/2020/11/filantropie-in-rotterdam-een-traditie-tussen-argwaan-en-vertrouwen/" Name="link" DestinationURL="https://www.versbeton.nl/2020/11/filantropie-in-rotterdam-een-traditie-tussen-argwaan-en-vertrouwen/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-49" Name="https://www.versbeton.nl/2020/11/filantropie-in-rotterdam-een-traditie-tussen-argwaan-en-vertrouwen/" Source="htss-49" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.versbeton.nl/2020/11/filantropie-in-rotterdam-een-traditie-tussen-argwaan-en-vertrouwen/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2021/01/14/hoe-moeten-overheid-en-filantropie-met-elkaar-omgaan-a4027432" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2021/01/14/hoe-moeten-overheid-en-filantropie-met-elkaar-omgaan-a4027432" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-48" Name="https://www.nrc.nl/nieuws/2021/01/14/hoe-moeten-overheid-en-filantropie-met-elkaar-omgaan-a4027432" Source="htss-48" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2021/01/14/hoe-moeten-overheid-en-filantropie-met-elkaar-omgaan-a4027432</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2014/07/31/het-museum-tussen-markt-en-mecenas-1406136-a680573" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2014/07/31/het-museum-tussen-markt-en-mecenas-1406136-a680573" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-47" Name="https://www.nrc.nl/nieuws/2014/07/31/het-museum-tussen-markt-en-mecenas-1406136-a680573" Source="htss-47" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2014/07/31/het-museum-tussen-markt-en-mecenas-1406136-a680573</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/08/04/na-slecht-beursjaar-en-vaandeldrager-zijn-de-reserves-op-a4171279" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2023/08/04/na-slecht-beursjaar-en-vaandeldrager-zijn-de-reserves-op-a4171279" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-46" Name="https://www.nrc.nl/nieuws/2023/08/04/na-slecht-beursjaar-en-vaandeldrager-zijn-de-reserves-op-a4171279" Source="htss-46" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/08/04/na-slecht-beursjaar-en-vaandeldrager-zijn-de-reserves-op-a4171279</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2021/03/22/stichting-droom-en-daad-start-tijdelijke-financieringsregeling-voor-rotterdamse-kunstenaars-a4036709" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2021/03/22/stichting-droom-en-daad-start-tijdelijke-financieringsregeling-voor-rotterdamse-kunstenaars-a4036709" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-45" Name="https://www.nrc.nl/nieuws/2021/03/22/stichting-droom-en-daad-start-tijdelijke-financieringsregeling-voor-rotterdamse-kunstenaars-a4036709" Source="htss-45" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2021/03/22/stichting-droom-en-daad-start-tijdelijke-financieringsregeling-voor-rotterdamse-kunstenaars-a4036709</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//inequality.stanford.edu/sites/default/files/Reich-paper-2.pdf" Name="link" DestinationURL="https://inequality.stanford.edu/sites/default/files/Reich-paper-2.pdf" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-44" Name="https://inequality.stanford.edu/sites/default/files/Reich-paper-2.pdf" Source="htss-44" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//inequality.stanford.edu/sites/default/files/Reich-paper-2.pdf</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/06/22/vernieuwing-bij-musea-is-gebaat-bij-ruimte-niet-bij-regels-a4167906" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2023/06/22/vernieuwing-bij-musea-is-gebaat-bij-ruimte-niet-bij-regels-a4167906" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-43" Name="https://www.nrc.nl/nieuws/2023/06/22/vernieuwing-bij-musea-is-gebaat-bij-ruimte-niet-bij-regels-a4167906" Source="htss-43" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/06/22/vernieuwing-bij-musea-is-gebaat-bij-ruimte-niet-bij-regels-a4167906</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/kijkverder/v/2023/de-geheimzinnige-familie-die-rotterdam-verrijkt-met-geld-dat-de-staatskas-wordt-onthouden~v744981/" Name="link" DestinationURL="https://www.volkskrant.nl/kijkverder/v/2023/de-geheimzinnige-familie-die-rotterdam-verrijkt-met-geld-dat-de-staatskas-wordt-onthouden~v744981/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-42" Name="https://www.volkskrant.nl/kijkverder/v/2023/de-geheimzinnige-familie-die-rotterdam-verrijkt-met-geld-dat-de-staatskas-wordt-onthouden~v744981/" Source="htss-42" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/kijkverder/v/2023/de-geheimzinnige-familie-die-rotterdam-verrijkt-met-geld-dat-de-staatskas-wordt-onthouden~v744981/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.philanthropy.com/article/netherlands-tops-list-of-charity-friendly-countries-study-says/" Name="link" DestinationURL="https://www.philanthropy.com/article/netherlands-tops-list-of-charity-friendly-countries-study-says/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-41" Name="https://www.philanthropy.com/article/netherlands-tops-list-of-charity-friendly-countries-study-says/" Source="htss-41" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.philanthropy.com/article/netherlands-tops-list-of-charity-friendly-countries-study-says/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.collecteurs.com/article/privatizing-the-institution" Name="link" DestinationURL="https://www.collecteurs.com/article/privatizing-the-institution" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-40" Name="https://www.collecteurs.com/article/privatizing-the-institution" Source="htss-40" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.collecteurs.com/article/privatizing-the-institution</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//levehetgeven.nl/Leve-het-geven.pdf" Name="link" DestinationURL="https://levehetgeven.nl/Leve-het-geven.pdf" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-39" Name="https://levehetgeven.nl/Leve-het-geven.pdf" Source="htss-39" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//levehetgeven.nl/Leve-het-geven.pdf</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.socialevraagstukken.nl/verwelkom-de-filantroop/" Name="link" DestinationURL="https://www.socialevraagstukken.nl/verwelkom-de-filantroop/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-38" Name="https://www.socialevraagstukken.nl/verwelkom-de-filantroop/" Source="htss-38" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.socialevraagstukken.nl/verwelkom-de-filantroop/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/het-aantal-particuliere-musea-groeit-wereldwijd-maar-dat-maakt-kunst-ook-kwetsbaar-vinden-critici~b2de1555/" Name="link" DestinationURL="https://www.volkskrant.nl/cultuur-media/het-aantal-particuliere-musea-groeit-wereldwijd-maar-dat-maakt-kunst-ook-kwetsbaar-vinden-critici~b2de1555/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-37" Name="https://www.volkskrant.nl/cultuur-media/het-aantal-particuliere-musea-groeit-wereldwijd-maar-dat-maakt-kunst-ook-kwetsbaar-vinden-critici~b2de1555/" Source="htss-37" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/het-aantal-particuliere-musea-groeit-wereldwijd-maar-dat-maakt-kunst-ook-kwetsbaar-vinden-critici~b2de1555/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/amsterdam-wil-op-de-zuidas-een-nieuw-particulier-museum-voor-hedendaagse-kunst~b0176ad3/" Name="link" DestinationURL="https://www.volkskrant.nl/cultuur-media/amsterdam-wil-op-de-zuidas-een-nieuw-particulier-museum-voor-hedendaagse-kunst~b0176ad3/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-36" Name="https://www.volkskrant.nl/cultuur-media/amsterdam-wil-op-de-zuidas-een-nieuw-particulier-museum-voor-hedendaagse-kunst~b0176ad3/" Source="htss-36" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/amsterdam-wil-op-de-zuidas-een-nieuw-particulier-museum-voor-hedendaagse-kunst~b0176ad3/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-35" Name="https://www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885" Source="htss-35" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/09/08/stop-de-veramerikanisering-van-de-cultuursector-a4173885</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/" Name="link" DestinationURL="https://www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-34" Name="https://www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/" Source="htss-34" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/noodlijdend-cobra-museum-voorlopig-van-de-ondergang-gered-door-verzamelaar-marius-touwen~b19b4588/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/nieuws-achtergrond/gift-van-miljoenen-euro-s-voor-verbouwing-museum-boijmans-is-onzeker~b2c1f236/" Name="link" DestinationURL="https://www.volkskrant.nl/nieuws-achtergrond/gift-van-miljoenen-euro-s-voor-verbouwing-museum-boijmans-is-onzeker~b2c1f236/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-33" Name="https://www.volkskrant.nl/nieuws-achtergrond/gift-van-miljoenen-euro-s-voor-verbouwing-museum-boijmans-is-onzeker~b2c1f236/" Source="htss-33" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/nieuws-achtergrond/gift-van-miljoenen-euro-s-voor-verbouwing-museum-boijmans-is-onzeker~b2c1f236/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/nieuws-achtergrond/de-nieuwe-mecenas-wil-invloed-op-cultuursector-wen-er-maar-aan~bc2be21b/" Name="link" DestinationURL="https://www.volkskrant.nl/nieuws-achtergrond/de-nieuwe-mecenas-wil-invloed-op-cultuursector-wen-er-maar-aan~bc2be21b/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-32" Name="https://www.volkskrant.nl/nieuws-achtergrond/de-nieuwe-mecenas-wil-invloed-op-cultuursector-wen-er-maar-aan~bc2be21b/" Source="htss-32" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/nieuws-achtergrond/de-nieuwe-mecenas-wil-invloed-op-cultuursector-wen-er-maar-aan~bc2be21b/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/fossil-free-culture-nl-claimt-dat-steeds-meer-musea-shell-laten-vallen-maar-de-musea-ontkennen~b843270c/" Name="link" DestinationURL="https://www.volkskrant.nl/cultuur-media/fossil-free-culture-nl-claimt-dat-steeds-meer-musea-shell-laten-vallen-maar-de-musea-ontkennen~b843270c/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-31" Name="https://www.volkskrant.nl/cultuur-media/fossil-free-culture-nl-claimt-dat-steeds-meer-musea-shell-laten-vallen-maar-de-musea-ontkennen~b843270c/" Source="htss-31" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/fossil-free-culture-nl-claimt-dat-steeds-meer-musea-shell-laten-vallen-maar-de-musea-ontkennen~b843270c/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2020/12/20/boijmans-modern-in-rotterdam-zuid-blijft-slechts-een-droom-a4024633" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2020/12/20/boijmans-modern-in-rotterdam-zuid-blijft-slechts-een-droom-a4024633" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-30" Name="https://www.nrc.nl/nieuws/2020/12/20/boijmans-modern-in-rotterdam-zuid-blijft-slechts-een-droom-a4024633" Source="htss-30" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2020/12/20/boijmans-modern-in-rotterdam-zuid-blijft-slechts-een-droom-a4024633</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/07/23/het-beeld-is-nog-geen-twee-maanden-oud-en-nu-al-een-rotterdams-icoon-a4170385" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2023/07/23/het-beeld-is-nog-geen-twee-maanden-oud-en-nu-al-een-rotterdams-icoon-a4170385" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-29" Name="https://www.nrc.nl/nieuws/2023/07/23/het-beeld-is-nog-geen-twee-maanden-oud-en-nu-al-een-rotterdams-icoon-a4170385" Source="htss-29" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/07/23/het-beeld-is-nog-geen-twee-maanden-oud-en-nu-al-een-rotterdams-icoon-a4170385</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2019/05/16/conflict-tussen-museum-boijmans-en-mecenas-over-bijdrage-verbouwing-a3960497" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2019/05/16/conflict-tussen-museum-boijmans-en-mecenas-over-bijdrage-verbouwing-a3960497" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-28" Name="https://www.nrc.nl/nieuws/2019/05/16/conflict-tussen-museum-boijmans-en-mecenas-over-bijdrage-verbouwing-a3960497" Source="htss-28" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2019/05/16/conflict-tussen-museum-boijmans-en-mecenas-over-bijdrage-verbouwing-a3960497</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//doi.org/10.1016/j.geoforum.2018.07.002" Name="link" DestinationURL="https://doi.org/10.1016/j.geoforum.2018.07.002" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-27" Name="https://doi.org/10.1016/j.geoforum.2018.07.002" Source="htss-27" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//doi.org/10.1016/j.geoforum.2018.07.002</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/" Name="link" DestinationURL="https://www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-26" Name="https://www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/" Source="htss-26" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/home/weldoeners-gezocht~badf3f49/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.versbeton.nl/2020/11/hoe-de-steenrijke-familie-van-der-vorm-macht-en-invloed-koopt-in-rotterdam/" Name="link" DestinationURL="https://www.versbeton.nl/2020/11/hoe-de-steenrijke-familie-van-der-vorm-macht-en-invloed-koopt-in-rotterdam/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-25" Name="https://www.versbeton.nl/2020/11/hoe-de-steenrijke-familie-van-der-vorm-macht-en-invloed-koopt-in-rotterdam/" Source="htss-25" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.versbeton.nl/2020/11/hoe-de-steenrijke-familie-van-der-vorm-macht-en-invloed-koopt-in-rotterdam/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//direct.mit.edu/octo/article/doi/10.1162/OCTO_a_00308/59381/Philanthropy-and-Plutocracy" Name="link" DestinationURL="https://direct.mit.edu/octo/article/doi/10.1162/OCTO_a_00308/59381/Philanthropy-and-Plutocracy" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-24" Name="https://direct.mit.edu/octo/article/doi/10.1162/OCTO_a_00308/59381/Philanthropy-and-Plutocracy" Source="htss-24" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//direct.mit.edu/octo/article/doi/10.1162/OCTO_a_00308/59381/Philanthropy-and-Plutocracy</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445" Name="link" DestinationURL="https://news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-23" Name="https://news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445" Source="htss-23" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//news.artnet.com/multimedia/the-art-angle-podcast-fotografiskas-bold-new-model-for-museums-2376445</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//fd.nl/tech-en-innovatie/1415039/filantropie-om-overheidsfalen-te-overleven" Name="link" DestinationURL="https://fd.nl/tech-en-innovatie/1415039/filantropie-om-overheidsfalen-te-overleven" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-22" Name="https://fd.nl/tech-en-innovatie/1415039/filantropie-om-overheidsfalen-te-overleven" Source="htss-22" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//fd.nl/tech-en-innovatie/1415039/filantropie-om-overheidsfalen-te-overleven</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen" Name="link" DestinationURL="https://www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-21" Name="https://www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen" Source="htss-21" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50678_column_13_bemoeigoederen</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50436_de_nieuwe_messias" Name="link" DestinationURL="https://www.metropolism.com/nl/opinion/50436_de_nieuwe_messias" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-20" Name="https://www.metropolism.com/nl/opinion/50436_de_nieuwe_messias" Source="htss-20" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/50436_de_nieuwe_messias</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/49861_column_10_blindgangers" Name="link" DestinationURL="https://www.metropolism.com/nl/opinion/49861_column_10_blindgangers" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-19" Name="https://www.metropolism.com/nl/opinion/49861_column_10_blindgangers" Source="htss-19" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/opinion/49861_column_10_blindgangers</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html" Name="link" DestinationURL="https://dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-18" Name="https://dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html" Source="htss-18" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//dvhn.nl/cultuur/De-slag-om-het-museum-28135228.html</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.cultuur-ondernemen.nl/culturele-financieringswijzer/dossier/mecenas-en-mecenaat" Name="link" DestinationURL="https://www.cultuur-ondernemen.nl/culturele-financieringswijzer/dossier/mecenas-en-mecenaat" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-17" Name="https://www.cultuur-ondernemen.nl/culturele-financieringswijzer/dossier/mecenas-en-mecenaat" Source="htss-17" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.cultuur-ondernemen.nl/culturele-financieringswijzer/dossier/mecenas-en-mecenaat</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/07/16/goed-geld-uit-het-belastingparadijs-a4169807" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2023/07/16/goed-geld-uit-het-belastingparadijs-a4169807" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-16" Name="https://www.nrc.nl/nieuws/2023/07/16/goed-geld-uit-het-belastingparadijs-a4169807" Source="htss-16" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2023/07/16/goed-geld-uit-het-belastingparadijs-a4169807</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/nederlands-fotomuseum-krijgt-gift-van-38-miljoen-en-koopt-pakhuis-in-rotterdam~b4843113/" Name="link" DestinationURL="https://www.volkskrant.nl/cultuur-media/nederlands-fotomuseum-krijgt-gift-van-38-miljoen-en-koopt-pakhuis-in-rotterdam~b4843113/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-15" Name="https://www.volkskrant.nl/cultuur-media/nederlands-fotomuseum-krijgt-gift-van-38-miljoen-en-koopt-pakhuis-in-rotterdam~b4843113/" Source="htss-15" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/cultuur-media/nederlands-fotomuseum-krijgt-gift-van-38-miljoen-en-koopt-pakhuis-in-rotterdam~b4843113/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst" Name="link" DestinationURL="https://www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-14" Name="https://www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst" Source="htss-14" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.metropolism.com/nl/features/41737_kunst_klimaat_de_lange_arm_wat_zoekt_de_fossiele_industrie_in_de_kunst</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas" Name="link" DestinationURL="https://www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-13" Name="https://www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas" Source="htss-13" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.gld.nl/nieuws/7958328/vordense-miljardair-85-voor-de-rechter-om-iraaks-gifgas</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.fondsenwerving.nl/verdieping/artikel/2023/01/03/Eerst-nadenken-over-sponsoring-en-mecenaat" Name="link" DestinationURL="https://www.fondsenwerving.nl/verdieping/artikel/2023/01/03/Eerst-nadenken-over-sponsoring-en-mecenaat" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-12" Name="https://www.fondsenwerving.nl/verdieping/artikel/2023/01/03/Eerst-nadenken-over-sponsoring-en-mecenaat" Source="htss-12" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.fondsenwerving.nl/verdieping/artikel/2023/01/03/Eerst-nadenken-over-sponsoring-en-mecenaat</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/columns-opinie/opinie-popmecenaat-is-er-nog-niet-maar-kan-er-komen~baff0c7b/" Name="link" DestinationURL="https://www.volkskrant.nl/columns-opinie/opinie-popmecenaat-is-er-nog-niet-maar-kan-er-komen~baff0c7b/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-11" Name="https://www.volkskrant.nl/columns-opinie/opinie-popmecenaat-is-er-nog-niet-maar-kan-er-komen~baff0c7b/" Source="htss-11" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/columns-opinie/opinie-popmecenaat-is-er-nog-niet-maar-kan-er-komen~baff0c7b/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/columns-opinie/welke-ruimte-willen-we-rijke-rockliefhebbers-geven~ba5e4d22/" Name="link" DestinationURL="https://www.volkskrant.nl/columns-opinie/welke-ruimte-willen-we-rijke-rockliefhebbers-geven~ba5e4d22/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-10" Name="https://www.volkskrant.nl/columns-opinie/welke-ruimte-willen-we-rijke-rockliefhebbers-geven~ba5e4d22/" Source="htss-10" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/columns-opinie/welke-ruimte-willen-we-rijke-rockliefhebbers-geven~ba5e4d22/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.volkskrant.nl/nieuws-achtergrond/mecenaat-moet-weer-statussymbool-worden~b7567c55/" Name="link" DestinationURL="https://www.volkskrant.nl/nieuws-achtergrond/mecenaat-moet-weer-statussymbool-worden~b7567c55/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-9" Name="https://www.volkskrant.nl/nieuws-achtergrond/mecenaat-moet-weer-statussymbool-worden~b7567c55/" Source="htss-9" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.volkskrant.nl/nieuws-achtergrond/mecenaat-moet-weer-statussymbool-worden~b7567c55/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.vn.nl/hoe-het-stedelijk-zich-uitlevert-aan-abn-amro/" Name="link" DestinationURL="https://www.vn.nl/hoe-het-stedelijk-zich-uitlevert-aan-abn-amro/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-8" Name="https://www.vn.nl/hoe-het-stedelijk-zich-uitlevert-aan-abn-amro/" Source="htss-8" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.vn.nl/hoe-het-stedelijk-zich-uitlevert-aan-abn-amro/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.groene.nl/artikel/de-ondernemende-mecenas" Name="link" DestinationURL="https://www.groene.nl/artikel/de-ondernemende-mecenas" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-7" Name="https://www.groene.nl/artikel/de-ondernemende-mecenas" Source="htss-7" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.groene.nl/artikel/de-ondernemende-mecenas</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.groene.nl/artikel/op-zoek-naar-filantropen" Name="link" DestinationURL="https://www.groene.nl/artikel/op-zoek-naar-filantropen" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-6" Name="https://www.groene.nl/artikel/op-zoek-naar-filantropen" Source="htss-6" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.groene.nl/artikel/op-zoek-naar-filantropen</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2010/09/25/de-massa-als-de-nieuwe-mecenas-11947724-a863503" Name="link" DestinationURL="https://www.nrc.nl/nieuws/2010/09/25/de-massa-als-de-nieuwe-mecenas-11947724-a863503" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-5" Name="https://www.nrc.nl/nieuws/2010/09/25/de-massa-als-de-nieuwe-mecenas-11947724-a863503" Source="htss-5" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.nrc.nl/nieuws/2010/09/25/de-massa-als-de-nieuwe-mecenas-11947724-a863503</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4/" Name="link" DestinationURL="https://www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-4" Name="https://www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4/" Source="htss-4" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.ad.nl/rotterdam/d66-frontvrouw-chantal-zeegers-betalen-is-ook-bepalen~adf8bdf4/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.metropolism.com/nl/opinion/46209_kunst_en_anti_gentrificatie_in_rotterdam_over_stedelijke_politiek_als_artistieke_praktijk" Name="link" DestinationURL="http://www.metropolism.com/nl/opinion/46209_kunst_en_anti_gentrificatie_in_rotterdam_over_stedelijke_politiek_als_artistieke_praktijk" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-3" Name="http://www.metropolism.com/nl/opinion/46209_kunst_en_anti_gentrificatie_in_rotterdam_over_stedelijke_politiek_als_artistieke_praktijk" Source="htss-3" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http%3a//www.metropolism.com/nl/opinion/46209_kunst_en_anti_gentrificatie_in_rotterdam_over_stedelijke_politiek_als_artistieke_praktijk</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.mistermotley.nl/first-decisions-voor-de-nieuwe-regering-een-pleidooi-voor-hernieuwd-vertrouwen-in-de-kunstenaars/" Name="link" DestinationURL="https://www.mistermotley.nl/first-decisions-voor-de-nieuwe-regering-een-pleidooi-voor-hernieuwd-vertrouwen-in-de-kunstenaars/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-2" Name="https://www.mistermotley.nl/first-decisions-voor-de-nieuwe-regering-een-pleidooi-voor-hernieuwd-vertrouwen-in-de-kunstenaars/" Source="htss-2" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//www.mistermotley.nl/first-decisions-voor-de-nieuwe-regering-een-pleidooi-voor-hernieuwd-vertrouwen-in-de-kunstenaars/</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//arminius.nl/ad-010-debat-hoe-verder-met-museum-boijmans-van-beuningen/" Name="link" DestinationURL="https://arminius.nl/ad-010-debat-hoe-verder-met-museum-boijmans-van-beuningen/" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-1" Name="https://arminius.nl/ad-010-debat-hoe-verder-met-museum-boijmans-van-beuningen/" Source="htss-1" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//arminius.nl/ad-010-debat-hoe-verder-met-museum-boijmans-van-beuningen/</Destination>
+    </Properties>
+  </Hyperlink>
+</Document>

@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/" Name="">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Link" Name="Link">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Paragraph" Name="Blockquote &gt; Paragraph" LeftIndent="10">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" LeftIndent="0" PointSize="24">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="1 0 0 1 150 -100">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-150 -100" LeftDirection="-150 -100" RightDirection="-150 -100" />
+              <PathPointType Anchor="-150 100" LeftDirection="-150 100" RightDirection="-150 100" />
+              <PathPointType Anchor="150 100" LeftDirection="150 100" RightDirection="150 100" />
+              <PathPointType Anchor="150 -100" LeftDirection="150 -100" RightDirection="150 -100" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="1 0 0 1 -150 -100">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+          </Profile>
+          <GraphicBounds Left="0" Top="0" Right="300" Bottom="200" />
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="file:imgs/paneel1.jpg" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#de-waarden-van-geld" Name="Destination" DestinationUniqueKey="1" />
+    <Content>De waarde(n) van geld</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#sofia-patat" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Sofia Patat</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Money and language have something in common: they are nothing and they move everything. They are nothing but symbols, conventions, flatus vocis, but they have the power of persuading human beings to act, to work, to transform physical things.’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> - </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Franco Berardi, The Uprising: On Poetry and Finance (2012)</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Vanwaar die negatieve instelling in de kunstenwereld tegenover private middelen? Onder de vrees voor verlies van artistieke autonomie verschuilt zich een dieperliggend waardenconflict. Gelukkig is er één figuur die daar wel raad mee weet. Kan de fundraiser de kunsten redden?</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Twee recent gepubliceerde onderzoeken over de economische situatie van beeldende kunstenaars stellen dat 64% van de Nederlandse en Belgische kunstenaars niet kan leven van zijn artistieke praktijk.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Maaike Lauwaert, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Beeldende kunstenaars: klem tussen twee banen’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Rekto:Verso</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, 2015. Jessy Siongers, Astrid Van Steen en John Lievens, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Loont passie? Een onderzoek naar de sociaaleconomische positie van professionele kunstenaars in Vlaanderen’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Kunstenpunt</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, 2016, </Content>
+        </CharacterStyleRange>
+        <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
+          <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+            <Content>http://www.kunsten.be/dossiers/kunstenaarcentraal/609-loont-passie-een-onderzoek-naar-de-sociaal-economische-positie-van-professionele-kunstenaars-in-vlaanderen</Content>
+          </CharacterStyleRange>
+        </HyperlinkTextSource>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Zelfs als we het werk dat verricht is buiten de kunsten meerekenen, slaagt 25% er nog niet in om financieel rond te komen. 50% van de ondervraagden moet leven met een gemiddelde jaarlijkse inkomen lager dan 10.000 euro. Kunstenaars spreken van </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘een gevecht met armoede, onzekerheid en precariteit’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Lauwaert, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Beeldende kunstenaars’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Al staat rijk zijn wellicht niet bovenaan de prioriteitenlijst van onafhankelijke beeldende kunstenaars, toch is het wel zeker dat geld (of eerder het ontbreken daarvan) hun geest in beslag neemt.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tegelijkertijd lijken kunstenaar geld als iets... onwaardig te beschouwen. Ze vinden het makkelijker om te praten over het geld waar het hen aan ontbreekt, dan over het geld dat ze verdienen. Volgens kunstenaar en socioloog Hans Abbing blijken alle termen die verwijzen naar geld en handel – geld, markt, commodity, commercieel, commercie, marketing – bij kunstenaars negatieve gevoelens op te roepen.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Hans Abbing, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Artists’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Rejection of Commerce and the Market’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>The Art Period</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, juni 2016.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De kunstsector als geheel lijkt deze houding te onderschrijven. Kunstenaars die een zakelijke aanpak tonen om vergoedingen of verkoopsprijzen te versieren, krijgen snel de reputatie van 'commerciële kunstenaars’. En 'commercieel' is waarschijnlijk ook de meest gebruikte vorm van smaad binnen de kunstkritiek. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Veel kunstenaars (maar ook andere agenten in de kunstwereld) hebben een complexe relatie met de markt’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, schreef Maaike Lauwaert al in 2011. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘Te commercieel succesvol zijn wordt met argwaan bekeken en wordt beschouwd als het resultaat van het maken van concessies als kunstenaar.’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Maaike Lauwaert, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Changing artist’s practices’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>BAM,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 2011.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> In die lijn lijkt de artistieke waarde van kunstwerken juist te stijgen met de minachting van de kunstenaar voor hun economische waarde en voor de markt als geheel.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Volgens onderzoek van economisch en cultureel socioloog Olav Velthuis is het onder kunstgaleries een wijdverspreide praktijk om prijzen niet openlijk te bespreken, maar het gesprek rond kunst duidelijk te scheiden van de financiële onderhandeling. Om de heilige symboolwaarde van kunst te blijven waarborgen, praten galeriehouders alleen achterin hun galerie over geld, of in een kleine ruimte die daar specifiek voor gereserveerd is. Ze voeren dus een fysieke scheiding in tussen de museale </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>front space</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> en de zakelijke </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>backoffice</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> van galeries.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Olav Velthuis, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Talking Prices: Symbolic Meanings of Prices on the Market for Contemporary Art</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Princeton: Princeton University Press, 2007).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#weerzin-tegen-privaat-geld" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Weerzin tegen privaat geld</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>We kunnen wellicht spreken van een sector-brede minachting voor geld. Of eerder voor privaat geld. Tegenover publiek geld bestaat veel minder vijandigheid. Kijk naar alle protest van de kunstgemeenschap tegen bezuinigingen op de cultuurbegroting. De argumentatie luidt dan vaak dat kunst een sociale noodzaak is, een basisbehoefte die de samenleving vitaal en kritisch houdt en zelfreflectie stimuleert. Financiële ondersteuning van kunst wordt dan ook gezien als een verantwoordelijkheid van de overheid. Private financiering alleen, zo wordt betoogd, zou niet volstaan, aangezien het </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>strings attached</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> heeft en onderworpen is aan individuele voorkeuren en zakelijke belangen. Alleen een zorgzame en rechtvaardige overheid zou kunstenaars in staat stellen vrijelijk te functioneren en zich te beschermen tegen externe druk.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Het argument is niet alleen dat private middelen onmogelijk de verminderde publieke financiering kunnen compenseren, maar ook dat private middelen artistieke vrijheid, onafhankelijkheid en experiment zouden beperken. Private financiering geeft, zo wordt beweerd, de voorkeur aan gemakkelijke, toegankelijke kunst: kunst die meer geschikt is voor de markt en minder kritisch, provocerend en experimenteel is.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Daaronder schuilt de breed gedeelde aanname dat patronen en sponsoren invloed zouden uitoefenen op de tentoonstellings- en acquisitiekeuzes. Dat ze zouden proberen om artistieke beslissingen te beïnvloeden in het voordeel van hun eigen zakelijke belangen. Dat geldschieters in ruil voor hun donaties zouden eisen dat werken uit hun privécollectie tentoongesteld worden, om daarmee hun waarde te verhogen. Bovendien, zo hoor je vaak, geven zakelijke en particuliere donateurs liever de voorkeur aan gevestigde talenten en reeds succesvolle organisaties, ten koste van opkomende kunstenaars en onafhankelijke kunstinstellingen.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Van die ongepaste beïnvloeding (of pogingen daartoe) bestaan natuurlijk wel degelijk voorbeelden. Na de financiële ineenstorting van het Los Angeles Museum of Contemporary Art in 2012, werd Trustee Eli Broad beschuldigd de kandidatuur van kunsthandelaar Jeffrey Deitch als museumdirecteur te hebben opgedrongen, om indirect de programmering van het museum te sturen naar een meer commerciële koers.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In Nederland was er in 2005 de veelbesproken sponsorovereenkomst tussen het Stedelijk Museum Amsterdam en ABN AMRO.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Lucette ter Borg en Hella Rottenberg, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Hoe het Stedelijk zich uitlevert aan ABN Amro’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Vrij Nederland,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 2005.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Gelijktijdig met de ondertekening werd bankier Rijkman Groenink, bestuursvoorzitter van ABN AMRO, ook hoofd van de Raad van Toezicht van het museum. Dat gaf hem het recht om de museumdirecteur te benoemen of te ontslaan, en de jaarrekeningen en strategische plannen van het museum goed of af te keuren. Voortaan kon hij ook de benoeming van andere leden van die Raad van Toezicht beïnvloeden. In de Verenigde Staten is dat trouwens een veelvoorkomende praktijk. Om tot het bestuur van musea en kunstinstellingen te mogen toetreden, wordt regelmatig een financiële bijdrage gevraagd.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#sturende-subsidies" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Sturende subsidies</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Maar zelfs in het licht van deze voorbeelden lijkt de stelling dat artistieke autonomie enkel gewaarborgd kan worden door overheidsfinanciering, geen stand te houden. Ook subsidies streven naar specifieke doelen en geven de voorkeur aan bepaalde kunstvormen en projecten boven andere. Kunstsubsidies dienen evenzeer om cultureel beleid uit te voeren. In Nederland hoeven we alleen maar te kijken naar het recente advies van de Raad voor Cultuur aan het Ministerie van Cultuur over de Basisinfrastructuur 2017-2020. Onder de evaluatiecriteria vallen bijvoorbeeld </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘maatschappelijke relevantie’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘diversiteit’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> en </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘participatie’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Raad voor Cultuur, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Agenda cultuur, 2017-2020 en verder’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In dit verband spreekt Belfiore van een </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>'instrumental turn'</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> die het Britse cultuurbeleid in de jaren 1980 overnam, om zich later over heel Europa te verspreiden.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Eleonora Belfiore, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>‘Auditing Culture: The Subsidised Cultural Sector in the New Public Management’</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>International Journal of Cultural Policy</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>, 2004, nr. 2, pp. 183-202. </Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Ook overheden neigen ertoe om met de financiering van cultuur doelen te bereiken op andere gebieden dan het culturele: stadsvernieuwing en lokale economische ontwikkeling, maatschappelijke integratie, gemeenschapsontwikkeling en sociale cohesie, veiligheid, gezondheidszorg, werkgelegenheid, onderwijs. En in die verwachtingen zijn publieke financiers zeker niet minder streng dan particuliere financiers. Ze hebben alleen andere doelstellingen en andere resultaten op het oog. Maar geld heeft altijd </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>strings attached.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Waar sta je dan met je autonomie? Je kan je afvragen of absolute artistieke autonomie überhaupt nog een realistische ambitie is in de hyper-vernetwerkte en geglobaliseerde kunstwereld van vandaag, gedomineerd door een sterke kunstmarkt en een steeds neoliberaler cultuurbeleid. Op de ene of de andere manier moet elke professionele kunstenaar of kunstorganisatie tot compromissen komen om zijn werk te ondersteunen. Een kunstenaar zal een paar verkoopbare tekeningen produceren om minder courant werk te financieren. Een museum zal af en toe een populair tentoonstellingsonderwerp kiezen om daarnaast meer experimentele projecten te kunnen ondersteunen.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#de-morele-lading-van-geld" Name="Destination" DestinationUniqueKey="1" />
+    <Content>De morele lading van geld</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In plaats van een kwestie van artistieke autonomie lijkt de vijandigheid tegenover private financiering veeleer de uitkomst van een waardenconflict en van een steeds wijder verspreid bewustzijn over de gevolgen van kunstfinanciering – niet alleen de artistieke gevolgen, maar ook de morele en politieke implicaties. Geld draagt ​​een morele lading: het is belegd met de waarden en ambities van degenen die het geven.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Recente voorbeelden van zulke waardenconflicten zijn de protestacties tegen Tate vanwege de sponsorovereenkomst met energiemultinational BP, die verantwoordelijk was voor de ecologische ramp op olieplatform Deepwater Horizon in 2010, en de kunstenaars-boycot van de Sydney Biënnale van 2014 omwille van haar relatie met Transfield, een bedrijf dat betrokken is bij het beheren van vluchtelingendetentiecentra. Niet de vermeende invloed van de sponsoren op de artistieke programmering werd gewraakt, wel de morele implicaties van hun partnerschappen met het kunstenveld.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dezelfde redenering geldt voor publieke financiering door autoritaire regeringen. Zo initieerden kunstenaars en curatoren de afgelopen jaren verschillende petities tegen de financiële steun van landen met een twijfelachtig burgerrechtenbeleid. De Europese biënnale Manifesta kan erover meespreken. Toen er besloten werd om de tiende editie van de biënnale in 2014 in Rusland te organiseren, regende het felle kritiek. In hetzelfde jaar was er zoveel ophef over een donatie van het Israëlische consulaat in Sao Paolo aan de Sao Paolo Biënnale, dat het logo van het consulaat verwijderd moest worden van de </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>sponsor board</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> van de tentoonstelling.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#botsende-waarden-en-werelden" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Botsende waarden en werelden</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Waaruit bestaan zulke waardenconflicten dan precies? De Franse sociologen Boltansky en Thévenot identificeren in hun publicatie </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>De la justification</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> zes verschillende 'werelden', zes domeinen waarbinnen individuen opereren volgens telkens een ander </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>'value regime'</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Boltansky en Thévenot, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De la justification</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Parijs: Gallimard, 1991).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Zo’n waardenregime is een coherente groep waarden en criteria om dingen en acties mee te beoordelen. Elk regime geeft de voorkeur aan andere specifieke kenmerken en gedrag.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Als kunstenaars en kunstprofessionals vijandig staan tegenover private financiers, dan komt dat volgens mij doordat zij in twee verschillende waardensferen opereren: de artistieke sfeer aan de ene kant en die van de markt aan de andere kant. Beide werelden delen weinig gemeenschappelijke kenmerken en werken volgens contrasterende logica’s. Binnen de wereld van kunstenaars en kunstinstellingen zijn zelfstandigheid, creativiteit, gemoedelijkheid en zelfverwerkelijking kernwaarden.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Pascal Gielen, Camiel van Winkel en Koos Zwaan, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De Hybride Kunstenaar</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (Den Bosch: AKV/St.Joost: 2012).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> De zakelijke wereld daarentegen wordt geregeld door (financiële) uitwisseling en wordt – over het algemeen – gedomineerd door kernwaarden zoals concurrentie, winstbejag, emotionele afstand en financieel succes.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	Boltansky en Thévenot, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>De la justification.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Dat zijn waarden waartegen kunstenaars zich altijd hebben verzet.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dat kunstenaars minder verzet tonen tegenover </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>overheidsfinanciering</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, ligt wellicht aan het feit dat de overheid wordt geleid door waarden die kunstenaars in principe niet tegenstaan: collectieve verantwoordelijkheid, sociale relaties, gelijkheid en sociale cohesie. En daarnaast heb je ook nog de wereld van particuliere begunstigers. Die vormt een geval apart, afhankelijk van ieders persoonlijke kenmerken en motieven. Sommige begunstigers handelen net als bedrijven: zij doneren kunstwerken aan musea om de waarde van hun eigen collectie en hun persoonlijke invloed en prestige te vergroten. Anderen zijn veel onzelfzuchtiger, worden niet geleid door overwegingen van persoonlijk voordeel en houden zich bewust op afstand van artistieke beslissingen.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mijn hypothese is dat conflicten en protesten rond financieringskeuzes optreden wanneer er sprake is van een </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>mismatch</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> tussen de waarden van de begunstiger en die van de begunstigde. Zulke </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>mismatches</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> komen zeker niet exclusief voor bij private financiering. Daar zijn namelijk ook heel succesvolle voorbeelden te vinden. Niet zozeer de herkomst van het geld is bepalend, wel de waarden die ermee verbonden worden.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#de-kunst-van-fondsenwerven" Name="Destination" DestinationUniqueKey="1" />
+    <Content>De kunst van fondsenwerven</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bestaat er een uitweg uit dat waardenconflict? Een mogelijke – hoewel niet onfeilbare – oplossing zie ik liggen in het inzetten van bekwame fondsenwervers. De figuur van de professionele </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>fundraiser</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> zag het levenslicht in de VS in het begin van de twintigste eeuw, maar deed in de culturele sector pas zijn intrede in de jaren 1970, toen de financiële crisis en de bijhorende krimpende overheidsbegrotingen ervoor zorgden dat musea sterker afhankelijk werden van private middelen. Sindsdien heeft culturele fondsenwerving zich sterk ontwikkeld en geprofessionaliseerd. Recent is ze zelfs opgenomen in universitaire curricula.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kenmerkend aan fondsenwervers is dat ze bekend zijn met de waarden, motivaties, doelstellingen en criteria die de keuzes van financiers leiden. Zij zijn ook in staat aan deze waarden te appelleren wanneer zij proberen om financiering veilig te stellen. Tegelijkertijd verzoenen zij de voorwaarden en de verzoeken van private en publieke financiers op zo’n manier dat de artistieke kwaliteit niet in gevaar komt. Ze fungeren als </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>match makers</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> tussen artistieke staf en externe belanghebbenden.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De kerncompetentie van de fondsenwerver is dus dat hij zich weet aan te passen aan diverse contexten, door zich vlot tussen al die sferen te bewegen en zijn register steeds af te stemmen op dat van zijn gesprekspartner. Een goede fondsenwerver is vooral een netwerker, een manager van relaties. Hij is zich bewust van de verwachtingen van alle partijen en brengt die samen op een manier die iedereen tevreden stelt (of dat tenminste probeert).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hoe dat concreet in zijn werk gaat? Vanuit een goed begrip van de artistieke ambities, kernwaarden en toekomstplannen van de organisatie waarvoor hij werkt, screent de fondsenwerver de motivatie, kernwaarden en persoonlijke, institutionele of financiële doelstellingen van potentiële begunstigers: sponsoren, stichtingen, particulieren en overheidsinstanties. De keuze van de juiste </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>potentials</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> is een belangrijke stap, omdat het de integriteit en de reputatie van de organisatie beschermt, de kans op een succesvolle en langdurige samenwerking verhoogt en het risico van conflict en onbegrip minimaliseert.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>De finale (en meest creatieve) stap van een succesvol proces is de onderhandeling over de voorwaarden van de overeenkomst en de tegenprestatie. Dit is ook het moment waarop het mis kan gaan. Denk aan de (in eerste instantie) stukgelopen sponsoringsdeal tussen het Stedelijk Museum Amsterdam en Audi in 1999, toen Audi de eis stelde dat het zijn auto's in het museum zou kunnen presenteren. Het is de rol van de fondsenwervers om de aspiraties van financiers te concretiseren, zonder afbreuk te doen aan de artistieke koers van de organisatie. Ook achteraf blijft de fondsenwerver zich engageren voor de tevredenheid van beide partijen, de afwikkeling van eventuele meningsverschillen en het veiligstellen van een hernieuwing van de overeenkomst.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <HyperlinkTextDestination Self="HyperlinkTextDestination/#conclusie" Name="Destination" DestinationUniqueKey="1" />
+    <Content>Conclusie</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Op zich hoeft de vijandigheid van de kunstwereld tegenover private middelen niet te verwonderen. Giften en donaties zijn immers nooit vrijblijvend. Geld belichaamt de motivaties, waarden en ambities van degenen die het schenken. En de waarden van zakelijke sponsoring staan – in de ogen van de kunstgemeenschap – op gespannen voet ​​met die van de onafhankelijke kunstenaar.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Alleen is het niet zo dat publieke subsidies wél zo neutraal zijn als de kunstwereld lijkt te geloven. Overheden streven vooral waarden na waarmee de kunstwereld meer affiniteit heeft (of denkt te hebben). En wat blijkt, is dat voor een succesvolle samenwerking juist die waarden van financiers een grote rol spelen, of zij nu privaat of publiek zijn.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hoe zorg je dan voor een goede </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>match</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>? Zou de figuur van de professionele fondsenwerver daar geen sleutelrol in kunnen spelen? Hij biedt natuurlijk slechts een gedeeltelijke oplossing voor de toenemende complexiteit van kunstfinanciering, maar is misschien wel beter in staat om vandaag én aanvullende financiering én artistieke ambities veilig te stellen.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Deze tekst is oorspronkelijk gepubliceerd door</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Rekto:Verso </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>op 23 januari 2017.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.kunsten.be/dossiers/kunstenaarcentraal/609-loont-passie-een-onderzoek-naar-de-sociaal-economische-positie-van-professionele-kunstenaars-in-vlaanderen" Name="link" DestinationURL="http://www.kunsten.be/dossiers/kunstenaarcentraal/609-loont-passie-een-onderzoek-naar-de-sociaal-economische-positie-van-professionele-kunstenaars-in-vlaanderen" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-1" Name="http://www.kunsten.be/dossiers/kunstenaarcentraal/609-loont-passie-een-onderzoek-naar-de-sociaal-economische-positie-van-professionele-kunstenaars-in-vlaanderen" Source="htss-1" Visible="false" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http%3a//www.kunsten.be/dossiers/kunstenaarcentraal/609-loont-passie-een-onderzoek-naar-de-sociaal-economische-positie-van-professionele-kunstenaars-in-vlaanderen</Destination>
+    </Properties>
+  </Hyperlink>
+</Document>
